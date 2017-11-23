@@ -6,14 +6,18 @@
   <meta name="description" content="아웃소싱 전문업체, 인재파견, 헤드헌팅, 장단기 파견, IT 등 채용정보 제공.">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- 부트스트랩 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/common/reset.css">
   <link rel="stylesheet" href="css/common/common.css">
   <link rel="stylesheet" href="css/pc/pc_main.css">
   <link rel="stylesheet" href="css/mobile/mobile_main.css">
 
-
+  <!-- 제이쿼리 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/mobile_menu.js"></script>
+  <!-- 부트스트랩 -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
   <script src="js/pc_menu.js"></script>
 
 
@@ -35,9 +39,9 @@
 
   <script>
   $(document).ready(function(){
-      $(".header .gnb li.parent-menu").hover(function(){
-        $(this).find("ul.child-menu").stop().fadeToggle(400);
-      });
+      // $(".header .gnb li.parent-menu").hover(function(){
+      //   $(this).find("ul.child-menu").stop().fadeToggle(400);
+      // });
     });
   </script>
 </head>
@@ -45,7 +49,7 @@
   <!-- header start -->
   <div class="header">
     <div class="inner">
-          <span class="menu-btn-mobile col-mid"><img src="img/menu-btn-mobile.png" alt="메뉴 버튼"></span>
+          <span class="menu-btn-mobile"><img src="img/menu-btn-mobile.png" alt="메뉴 버튼"></span>
 
           <!-- util-menu start -->
           <div class="util-menu">
@@ -64,6 +68,7 @@
                   <li><img src="img/in-icon.png" alt="페이스북 로그인 아이콘"></li>
                   <li><img src="img/insta-icon.png" alt="페이스북 로그인 아이콘"></li>
                 </ul>
+
               <!-- sns-icon end -->
           </div>
           <!-- util-menu end -->
@@ -100,7 +105,7 @@
               <a href="#">SERVICE REQUEST</a>
               <ul class="child-menu">
                 <li class="gnb_pointer"></li>
-                <li class="service-req display_none">Service Request</li>
+                <li>Service Request</li>
               </ul>
             </li>
 
@@ -163,17 +168,17 @@
         <!-- sub-contents start -->
         <div class="sub-contents">
           <ul>
-            <li>
+            <li class="sub-area">
               <span class="sub-title">Look<br>
 for a job?</span>
 
               <div class="btn-box">
-                <a href="#" class="btn">VIEW VACANCIES</a>
-                <a href="#" class="btn">SEND RESUME</a>
-              </ol>
+                <a href="#" class="btn reset_font">VIEW VACANCIES</a>
+                <a href="#" class="btn reset_font">SEND RESUME</a>
+              </div>
             </li>
 
-            <li>
+            <li class="sub-area">
               <span class="sub-title">Search<br>
 for employee?</span>
 

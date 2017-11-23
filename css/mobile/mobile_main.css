@@ -1,45 +1,48 @@
-/*<!-- 반응형 테스트 CSS코드 -->*/
-
-  @media only screen and (max-width: 900px) {
-  body{overflow: hidden;}
-  .header{height: 100px; border-bottom: 1px solid #e1e1e1;}
-
-  .header .menu-btn-mobile{width: 64px; height: 64px; display: block; position: fixed; left: 15px; bottom:15px; cursor: pointer; z-index: 10000000;}
-
-  .header h1.logo{position: absolute; left: 20px; top: 15px;}
-  .header h1.logo a img{width:60px; height:50px;}
-  .header .util-menu{width: 230px; height: 90px; position: absolute; top: 0; right: 0;}
-
-  .header .util-menu .login-box{width: 210px; height: 40px;overflow: hidden;float: right;padding-left: 18px;}
-  .header .util-menu .login-box li {display: inline;}
-  .header .util-menu .login-box li a{display: block;float: left;margin: 10px 7px; color: #a6a6a6;}
-
-  .header .util-menu .login-box li.bg-bar{position: absolute; top: 13px;}
-
-
-  .header .util-menu .sns-icon{float: right;padding-right: 10px;}
-    .header .util-menu .sns-icon li{float: left;margin: 0px 5px;}
-
-
-  .header .gnb{z-index: 1000; width: 100%; height: 100%; position: fixed; bottom:0; left:0; background: #fff; padding: 0; opacity: 0.8; padding-top: 30px; overflow: hidden; display: none;}
-  .header .gnb li.parent-menu{width: 100%; margin:10px;}
-
-  .header .gnb li.parent-menu a{display: block; font-size: 18px; font-weight: bold;color: #466ea5; width:40%; text-align: left; float: left;padding-left: 15px;}
-  .header .gnb li.parent-menu .child-menu{width: 60%;padding-left: 15px;float: right;}
-  .header .gnb li.parent-menu .child-menu li{width: 100%; height: 30px;text-align: left;font-size: 18px; color: #466ea5;}
-
-
-  .container .main-contents{ width: 100%; height:50%; background: url(../../img/mobile/main-visual.png) 0 0  no-repeat; background-size: 100%; position: relative; }
+/*<!-- 반응형 모바일 CSS코드 -->*/
+  @media only screen and (max-width: 600px) {
+  .container .main-contents{ width: 100%; height:0px; overflow: hidden; padding-top: 88%;background: url(../../img/mobile/main-visual.png) 0 0  no-repeat; background-size: 100%; position: relative; }
+  .container .main-contents
+  .main-txt{max-width: 600px; position: absolute;top:10%;}
+  .container .main-contents .main-txt .i-am{font-size: 8vw; color:#404040;}
+  .container .main-contents .main-txt p{font-size: 3.5vw; color:#7f7f7f;}
 
   .container .sub-contents{width: 100%;}
     .container .sub-contents ul{width: 100%; overflow: hidden;}
-    .container .sub-contents ul li{width: 100%; height: 400px; clear:both;}
+    .container .sub-contents ul li{width: 100%; height: 0px; overflow: hidden; padding-bottom: 66.6%; background: red;clear:both; position: relative;}
+    .container .sub-contents ul li .sub-title{position: absolute; font-size: 5vw; font-weight: bold; color: #fff; top:26px; left: 30px; line-height: 1.3em;}
+
+    .container .sub-contents ul li.sub-area{position: relative;}
+    .container .sub-contents ul li:nth-child(1){background: url("../../img/sub-img01.png") no-repeat 0 0;  background-size: 100%;}
+    .container .sub-contents ul li:nth-child(2){background: url("../../img/sub-img02.png") no-repeat 0 0; background-size: 100%;}
+
+    .container .sub-contents .btn-box{width: 80%; height: 0px; padding-bottom: 21%;margin: 0 auto; position: absolute; left: 50%; bottom:3%; margin-left:-40%;}
+    .container .sub-contents .btn-box .btn{display: block;width: 58%;  margin: 0 auto; height:0;padding-bottom: 10%;background: #fff; border:#fff 1px solid; border-radius:10px; font-size: 3.2vw; text-align:center;color:#404040;line-height: 2.1em;}
+    .container .sub-contents .btn-box .btn:nth-child(2){margin-top:8px;}
+
+
+
+
+
+    /*footer*/
+    .footer{width: 95%; height:140px; color: #656565; margin: 0 auto; margin-top:10px; margin-bottom: 10px;  border: 1px solid #d3d3d3; position: relative; padding: 15px;}
+
+      .footer .company-info{text-align: left;}
+      .footer .copyright{color:#404040; margin-top: 15px;}
+
+      .footer .etc-menu{width: 70%; height: 35px; position:relative; bottom:0px; margin: 0 auto;}
+        .footer .etc-menu>ul{width: 350px; height: 35px; overflow:hidden;}
+        .footer .etc-menu>ul>li{height: 100%; margin:10px; margin-top: 10px;float: left;}
+        .footer .etc-menu>ul>li a{height: 100%;font-size: 15px; float: left;}
+          .footer .etc-menu>ul>li.bg-bar{margin-top: 14px;}
+    }
+
+    }
  }
 
 
 
 @media only screen and (max-width: 400px) {
   .header .gnb li.parent-menu a{font-size: 12px;}
-  .header .gnb li.parent-menu .child-menu li{font-size: 12px;}
+  .header .gnb li.parent-menu .child-menu li{font-size: 11px; height: 23px;}
 
 }

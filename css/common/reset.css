@@ -25,3 +25,25 @@ legend{*width:0}
 table{border-collapse:collapse;border-spacing:0}
 input::-ms-clear{display:none}
 .clear-fix:after{content: ''; display: block; width: 0; height: 0; visibility: hidden; clear:both;}
+
+
+
+/*mobile font reset*/
+@media only screen and (max-width: 400px) {
+  .reset_font{font-size: 10px;}
+  .header .gnb li.parent-menu a{font-size: 12px;}
+  .header .gnb li.parent-menu .child-menu li{font-size: 11px; height: 23px;}
+}
+
+@media only screen and (max-width: 500px) {
+  .reset_font{font-size: 10.5px; line-height: 1.2em}
+  .header .gnb li.parent-menu a{font-size: 12px;}
+  .header .gnb li.parent-menu .child-menu li{font-size: 11px; height: 23px;}
+}
+
+@media only screen and (max-width: 600px) {
+  .reset_font{font-size: 13px;}
+  .header .gnb li.parent-menu a{font-size: 12px;}
+  .header .gnb li.parent-menu .child-menu li{font-size: 11px; height: 23px;}
+
+}
