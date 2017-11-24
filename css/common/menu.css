@@ -19,8 +19,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,header,nav,asid
   .header .util-menu{width: 100%; height: 50px; overflow: hidden; position: relative;}
   .header .util-menu .login-box{width: 300px; position: absolute; right:120px; top: 10px;}
   .header .util-menu .login-box li{ float: left; margin:0px 15px;}
-  .header .util-menu .login-box li a{color: rgb(166,166,166);}
+  .header .util-menu .login-box li a{font-family: Calibri;color: rgb(166,166,166);}
   .header .util-menu .login-box li.triangle {width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
+  .header .util-menu .login-box li.triangle a.eng{;}
+  .header .util-menu .login-box li.triangle a.kor{display: none; font-size: 13px; padding-left: 10px;}
   .header .util-menu .login-box li.bg-bar{margin-top: 5px;}
 
   .header .util-menu .sns-icon{width: 120px; height: 50px; position: absolute; right:0px;}
@@ -29,7 +31,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,header,nav,asid
 
   .header .gnb{width:95%; height: 570px; padding-top:30px; float: left; padding-left: 9.2%; position: relative; overflow: hidden;}
   .header .gnb li.parent-menu{width: 15.5%; height: 40px; float: left; padding-left: 3.1%;}
-  .header .gnb li.parent-menu>a{color: rgb(89, 89, 89); display: block;font-size: 16px; text-align: center; margin: 0; padding: 0;overflow: hidden;}
+  .header .gnb li.parent-menu>a{font-family: Calibri;color: rgb(89, 89, 89); display: block;font-size: 16px; text-align: center; margin: 0; padding: 0;overflow: hidden;}
   .header .gnb li .child-menu li{color: rgb(89, 89, 89); width: 180px; height: 40px; border: 1px solid #e3e3e3; padding:10px 0 0 15px;}
 
   .header .gnb li .child-menu{margin-top: 15px;}
@@ -68,6 +70,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,header,nav,asid
   .header .util-menu .login-box li {display: inline;}
   .header .util-menu .login-box li a{display: block;float: left;margin: 10px 7px; color: rgb(166,166,166);}
   .header .util-menu .login-box li.triangle a{width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
+  li.triangle a.eng{;}
+  .header .util-menu .login-box li.triangle a.kor{display: none; font-size: 13.5px; padding-left: 10px;}
 
 
 

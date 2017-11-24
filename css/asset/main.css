@@ -4,19 +4,19 @@
   .container .main-contents{width: 100%; height: 625px; background: url('../../img/main-visual.png') no-repeat 550px 58px; position: relative;}
   .container .main-contents .main-txt{width: 693px; height: 154px; position: absolute; top: 230px; left: 15px;}
     .container .main-contents .main-txt span{width:100%; color:#404040; font-size: 78px;}
-    .container .main-contents .main-txt p{color:#7f7f7f; font-size: 35px; margin-left: 60px;}
+    .container .main-contents .main-txt p{color:rgb(127,127,127); font-size: 28px; margin-left: 95px;}
 
 
 
   .container .sub-contents{width: 100%;}
   .container .sub-contents ul{width: 100%; overflow: hidden;}
     .container .sub-contents ul li{width: 50%; height: 400px; float: left;  position: relative;}
-    .container .sub-contents ul li .sub-title{position: absolute; font-size: 37px; color: #fff; top:30px; left: 30px;}
+    .container .sub-contents ul li .sub-title{position: absolute; font-size: 37px; color: #fff; top:30px; left: 30px; font-weight: bold;}
       .container .sub-contents ul li:first-child{background: url('../../img/sub-img01.png') no-repeat center;}
       .container .sub-contents ul li:last-child{background: url('../../img/sub-img02.png') no-repeat center;}
 
-      .container .sub-contents .btn-box{width: 400px; height: 52px; position: absolute; bottom:30px; left: 50%; margin-left: -200px;}
-      .container .sub-contents .btn{display: block;background: #fff; width:180px; height: 52px; border-radius: 10px; border: 1px solid #e1e1e1; color: #333; text-align: center; padding-top: 15px; font-size: 16px; float: left; margin: 0 10px;}
+      .container .sub-contents .btn-box{width: 410px; height: 52px; position: absolute; bottom:30px; left: 50%; margin-left: -205px;}
+      .container .sub-contents .btn{display: block;background: #fff; width:195px; height: 42px; border-radius: 10px; border: 1px solid #e1e1e1;color:rgb(64,64,64);line-height:2.8em; text-align: center; padding-top:; font-size: 14px; float: left; margin: 0px 2.5px;}
 
 
       /*footer*/
@@ -49,7 +49,7 @@
     .container .sub-contents ul li:nth-child(2){background: url("../../img/sub-img02.png") no-repeat 0 0; background-size: 100%;}
 
     .container .sub-contents .btn-box{width: 80%; height: 0px; padding-bottom: 21%;margin: 0 auto; position: absolute; left: 50%; bottom:3%; margin-left:-40%;}
-    .container .sub-contents .btn-box .btn{display: block;width: 58%;  margin: 0 auto; height:0;padding-bottom: 10%;background: #fff; border:#fff 1px solid; border-radius:10px; font-size: 3.2vw; text-align:center;color:#404040;line-height: 2.1em;}
+    .container .sub-contents .btn-box .btn{display: block;width: 58%;  margin: 0 auto; height:0;padding-bottom: 10%;background: #fff; border:#fff 1px solid; border-radius:10px; font-size: 3.2vw; text-align:center;color:rgb(64,64,64);line-height: 2.4em;}
     .container .sub-contents .btn-box .btn:nth-child(2){margin-top:8px;}
 
 
@@ -57,7 +57,7 @@
 
 
     /*footer*/
-    .footer{width: 95%; height:140px; color: #656565; margin: 0 auto; margin-top:10px; margin-bottom: 10px;  border: 1px solid #d3d3d3; position: relative; padding: 15px;}
+    .footer{width: 95%;color: rgb(64,64,64); margin: 0 auto; margin-top:10px; margin-bottom: 10px;  border: 1px solid #d3d3d3; position: relative; padding: 15px;}
 
       .footer .company-info{text-align: left;}
       .footer .copyright{color:#404040; margin-top: 15px;}

@@ -6,8 +6,20 @@ $(function(){
     var parent_menu = $('.header .gnb li.parent-menu');
     var parent_menu_a = $('.header .gnb li.parent-menu a');
     var child_menu = $('ul.child-menu');
+    var eng = $('li.triangle a.eng');
+    var kor = $('li.triangle a.kor');
 
-
+    //한국어&영어 선택 모션
+    $(eng).click(function() {
+        $(this).fadeOut(0, function() {
+          $(kor).fadeIn(500);
+          })
+    });
+    $(kor).click(function() {
+        $(this).fadeOut(0, function() {
+          $(eng).fadeIn(500);
+          })
+    });
     //피씨 메뉴 리셋&모션
     function PcMenuMode(){
       $(gnb).fadeIn(0);
@@ -90,12 +102,7 @@ $(function(){
     });
   });
 
-  //   } else {
-  //       //창 가로 크기가 601보다 클 경우
-  //       PcMenuMode();
-  //       return;
-  //   }
-  // });
+
 
   // //모바일 메뉴 아이템 리셋 모션 -> 사용안함
   // function MenuItemReset(setTime){
