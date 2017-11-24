@@ -17,17 +17,6 @@
 
       .container .sub-contents .btn-box{width: 410px; height: 52px; position: absolute; bottom:30px; left: 50%; margin-left: -205px;}
       .container .sub-contents .btn{display: block;background: #fff; width:195px; height: 42px; border-radius: 10px; border: 1px solid #e1e1e1;color:rgb(64,64,64);line-height:2.8em; text-align: center; padding-top:; font-size: 14px; float: left; margin: 0px 2.5px;}
-
-
-      /*footer*/
-      .footer{width: 100%; height: 125px; color: #9e9e9e; margin: 60px 0 20px 0; border: 1px solid #d3d3d3; position: relative; padding: 25px;}
-
-        .footer .copyright{color:#404040; margin-top: 15px;}
-
-        .footer .etc-menu{width: 350px; height: 35px; position: absolute; right: 20px; bottom:20px;}
-          .footer .etc-menu>ul{width: 350px; height: 35px;overflow:hidden;}
-          .footer .etc-menu>ul>li{height: 100%; margin:10px; float: left;}
-            .footer .etc-menu>ul>li.bg-bar{margin-top: 14px;}
 }
 
 
@@ -35,7 +24,7 @@
   @media only screen and (max-width: 600px) {
   .container .main-contents{ width: 100%; height:0px; overflow: hidden; padding-top: 88%;background: url(../../img/mobile/main-visual.png) 0 0  no-repeat; background-size: 100%; position: relative; }
   .container .main-contents
-  .main-txt{max-width: 600px; position: absolute;top:10%;}
+  .main-txt{max-width: 600px; position: absolute;top:45%; left: 3%}
   .container .main-contents .main-txt .i-am{font-size: 8vw; color:#404040;}
   .container .main-contents .main-txt p{font-size: 3.5vw; color:#7f7f7f;}
 
@@ -51,25 +40,6 @@
     .container .sub-contents .btn-box{width: 80%; height: 0px; padding-bottom: 21%;margin: 0 auto; position: absolute; left: 50%; bottom:3%; margin-left:-40%;}
     .container .sub-contents .btn-box .btn{display: block;width: 58%;  margin: 0 auto; height:0;padding-bottom: 10%;background: #fff; border:#fff 1px solid; border-radius:10px; font-size: 3.2vw; text-align:center;color:rgb(64,64,64);line-height: 2.4em;}
     .container .sub-contents .btn-box .btn:nth-child(2){margin-top:8px;}
-
-
-
-
-
-    /*footer*/
-    .footer{width: 95%;color: rgb(64,64,64); margin: 0 auto; margin-top:10px; margin-bottom: 10px;  border: 1px solid #d3d3d3; position: relative; padding: 15px;}
-
-      .footer .company-info{text-align: left;}
-      .footer .copyright{color:#404040; margin-top: 15px;}
-
-      .footer .etc-menu{width: 70%; height: 35px; position:relative; bottom:0px; margin: 0 auto;}
-        .footer .etc-menu>ul{width: 350px; height: 35px; overflow:hidden;}
-        .footer .etc-menu>ul>li{height: 100%; margin:10px; margin-top: 10px;float: left;}
-        .footer .etc-menu>ul>li a{height: 100%;font-size: 15px; float: left;}
-          .footer .etc-menu>ul>li.bg-bar{margin-top: 14px;}
-    }
-
-    }
  }
 
 

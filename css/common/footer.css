@@ -1,0 +1,25 @@
+/*PC footer CSS코드*/
+@media only screen and (min-width: 600px) {
+  .footer{width: 1200px; height: 125px; color:rgb(64,64,64); margin: 0 auto; margin-top: 10px; margin-bottom: 20px; border: 1px solid #d3d3d3; position: relative; padding: 25px;}
+
+  .footer .copyright{color:#404040; margin-top: 15px;}
+
+  .footer .etc-menu{width: 350px; height: 35px; position: absolute; right: 20px; bottom:20px;}
+  .footer .etc-menu>ul{width: 350px; height: 35px;overflow:hidden;}
+  .footer .etc-menu>ul>li{height: 100%; margin:10px; float: left;}
+  .footer .etc-menu>ul>li.bg-bar{margin-top: 14px;}
+}
+
+/*MOBILE footer CSS코드*/
+@media only screen and (max-width: 601px) {
+  .footer{width: 95%;color: rgb(64,64,64); margin: 0 auto; margin-top:10px; margin-bottom: 10px;  border: 1px solid #d3d3d3; position: relative; padding: 15px;}
+
+  .footer .company-info{text-align: left;}
+  .footer .copyright{color:#404040; margin-top: 15px;}
+
+  .footer .etc-menu{width: 70%; height: 35px; position:relative; bottom:0px; margin: 0 auto;}
+  .footer .etc-menu>ul{width: 350px; height: 35px; overflow:hidden;}
+  .footer .etc-menu>ul>li{height: 100%; margin:10px; margin-top: 10px;float: left;}
+  .footer .etc-menu>ul>li a{height: 100%;font-size: 15px; float: left;}
+  .footer .etc-menu>ul>li.bg-bar{margin-top: 14px;}
+}

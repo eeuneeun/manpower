@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/common/reset.css">
   <link rel="stylesheet" href="css/common/header.css">
   <link rel="stylesheet" href="css/common/footer.css">
-  <link rel="stylesheet" href="css/asset/login.css">
+  <link rel="stylesheet" href="css/asset/signup.css">
 
   <!-- 제이쿼리 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,11 +15,12 @@
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
 
   <script src="js/header.js"></script>
-  <title>Document</title>
+  <title>맨파워 코리아</title>
 </head>
 <body>
   <!-- header start -->
   <div class="header">
+    <!-- inner start -->
     <div class="inner">
 
           <!-- util-menu start -->
@@ -120,19 +121,16 @@
     <!-- inner start -->
     <div class="inner">
       <!-- left-section start -->
-      <div class="left-section"></div>
-      <!-- left-section end -->
-      <!-- right-section start -->
-      <div class="right-section">
+      <div class="left-section">
           <fieldset>
             <!-- login-area start -->
-            <legend class="login-area">
-              <h3>Log In</h3>
-              <div class="line"></div>
-              <label for="id">User ID/Email:</label><br>
-              <input type="text" placeholder="User ID/Email" id="id" name="id" value=""><br>
-              <label for="Password">Password:</label><br>
+            <legend class="sign-up-area">
+              <h3>Sign Up</h3>
+              <input type="text" placeholder="Email" id="email" name="email" value=""><br>
               <input type="password" placeholder="Password" id="Password" name="Password" value=""><br>
+              <label for="Password">Must use 9-20 characters with at least one number or symbol</label><br>
+              <input type="password" placeholder="Confirm New Password" id="Password" name="Password" value=""><br>
+
 
               <div class="btn-group">
                 <span class="left">Forgot Password?</span>
@@ -170,6 +168,10 @@
             <!-- sign-up-area end -->
         </fieldset>
       </div>
+      <!-- left-section end -->
+
+      <!-- right-section start -->
+      <div class="right-section"></div>
       <!--right-section end-->
     </div>
     <!-- inner end -->
