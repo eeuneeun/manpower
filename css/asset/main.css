@@ -1,3 +1,36 @@
+@media only screen and (min-width: 600px) {
+/*container*/
+.container{width: 100%;}
+  .container .main-contents{width: 100%; height: 625px; background: url('../../img/main-visual.png') no-repeat 550px 58px; position: relative;}
+  .container .main-contents .main-txt{width: 693px; height: 154px; position: absolute; top: 230px; left: 15px;}
+    .container .main-contents .main-txt span{width:100%; color:#404040; font-size: 78px;}
+    .container .main-contents .main-txt p{color:#7f7f7f; font-size: 35px; margin-left: 60px;}
+
+
+
+  .container .sub-contents{width: 100%;}
+  .container .sub-contents ul{width: 100%; overflow: hidden;}
+    .container .sub-contents ul li{width: 50%; height: 400px; float: left;  position: relative;}
+    .container .sub-contents ul li .sub-title{position: absolute; font-size: 37px; color: #fff; top:30px; left: 30px;}
+      .container .sub-contents ul li:first-child{background: url('../../img/sub-img01.png') no-repeat center;}
+      .container .sub-contents ul li:last-child{background: url('../../img/sub-img02.png') no-repeat center;}
+
+      .container .sub-contents .btn-box{width: 400px; height: 52px; position: absolute; bottom:30px; left: 50%; margin-left: -200px;}
+      .container .sub-contents .btn{display: block;background: #fff; width:180px; height: 52px; border-radius: 10px; border: 1px solid #e1e1e1; color: #333; text-align: center; padding-top: 15px; font-size: 16px; float: left; margin: 0 10px;}
+
+
+      /*footer*/
+      .footer{width: 100%; height: 125px; color: #9e9e9e; margin: 60px 0 20px 0; border: 1px solid #d3d3d3; position: relative; padding: 25px;}
+
+        .footer .copyright{color:#404040; margin-top: 15px;}
+
+        .footer .etc-menu{width: 350px; height: 35px; position: absolute; right: 20px; bottom:20px;}
+          .footer .etc-menu>ul{width: 350px; height: 35px;overflow:hidden;}
+          .footer .etc-menu>ul>li{height: 100%; margin:10px; float: left;}
+            .footer .etc-menu>ul>li.bg-bar{margin-top: 14px;}
+}
+
+
 /*<!-- 반응형 모바일 CSS코드 -->*/
   @media only screen and (max-width: 600px) {
   .container .main-contents{ width: 100%; height:0px; overflow: hidden; padding-top: 88%;background: url(../../img/mobile/main-visual.png) 0 0  no-repeat; background-size: 100%; position: relative; }

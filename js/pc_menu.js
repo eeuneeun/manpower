@@ -1,12 +1,12 @@
 
 $(function(){
-    var windowWidth = $( window ).width();
+    var windowWidth = $(window).width();
     var gnb = $('.header .gnb');
     var mobile_menu_btn = $('.menu-btn-mobile');
     var parent_menu = $('.header .gnb li.parent-menu');
     var parent_menu_a = $('.header .gnb li.parent-menu a');
     var child_menu = $('ul.child-menu');
-    var mobile_gnb_flag=0;
+
 
     //피씨 메뉴 리셋&모션
     function PcMenuMode(){
@@ -52,7 +52,7 @@ $(function(){
 
 
     // 첫 진입시 분기
-    if(windowWidth > 601){
+    if(windowWidth > 600){
       PcMenuMode();
       PcGnbOpen();
 
@@ -72,7 +72,7 @@ $(function(){
     //리사이즈 감지
     $(window).resize(function() {
       var windowWidth = $( window ).width();
-      if(windowWidth < 601) {
+      if(windowWidth < 600) {
         MobileMode();
         $(mobile_menu_btn).click(function(){
           if(gnb.is(":hidden") & $(mobile_menu_btn).is(":visible")){
@@ -83,7 +83,7 @@ $(function(){
 
           }
         });
-      }else if(windowWidth > 601){
+      }else if(windowWidth > 600){
         PcMenuMode();
         PcGnbOpen();
       }
