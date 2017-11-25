@@ -4,9 +4,9 @@
    .left-section{width:50%; height: 770px;float:left; background: url(../../img/login-bg.png) 30px 90px no-repeat;}
 
 
-   .right-section{float: right;width:50%; height: 770px;}
+   .right-section{position: absolute; top:0;padding-top: 190px;right: 0;float: right;width:600px; height: 770px; background: #fff;}
 
-   .right-section fieldset{width: 70%;margin: 0 auto; margin-top: 190px; }
+   .right-section fieldset{width: 70%;margin: 0 auto;}
     .right-section fieldset legend{font-size: 28px; color: rgb(89,89,89);}
     .right-section fieldset label{font-size: 15px; color: #757575;}
     input{width: 420px; height: 30px; border-radius: 5px; border: 1px solid #e1e1e1; margin: 2px 0 7px 0;}

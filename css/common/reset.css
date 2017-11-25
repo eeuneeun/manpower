@@ -29,7 +29,7 @@ table{border-collapse:collapse;border-spacing:0}
 input::-ms-clear{display:none}
 .clear-fix:after{content: ''; display: block; width: 0; height: 0; visibility: hidden; clear:both;}
 
-.inner{max-width: 1200px; width: 100%; margin:0 auto; overflow: hidden;}
+.inner{max-width: 1200px; width: 100%; margin:0 auto; overflow: hidden; position: relative;}
 .off{display: none;}
 .on{display: block;}
 .left{float: left;}
