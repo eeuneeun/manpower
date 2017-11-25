@@ -43,4 +43,45 @@
 }
 /*MOBILE 버전*/
 @media only screen and (max-width: 600px) {
+  .container{width: 100%;}
+  .left-section, .right-section fieldset legend.login-area label{display: none;}
+  .right-section{width: 100%;}
+
+  input{width: 100%; max-width:500px; height: 30px; border-radius: 5px; border: 1px solid #e1e1e1; margin: 0 auto;}
+  .right-section fieldset div.line{width: 100%; height: 1px; border-top: 1px solid #e1e1e1;margin-bottom: 10px;}
+
+  .right-section fieldset{width: 100%;margin: 0 auto;}
+  .right-section fieldset legend.login-area{width: 90%;margin: 0 auto;}
+  /*크로스 브라우징*/
+  .right-section fieldset legend.login-area input::-webkit-input-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+  .right-section fieldset legend.login-area input:-moz-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+  .right-section fieldset legend.login-area input::-moz-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+  .right-section fieldset legend.login-area input:-ms-input-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+
+
+  .right-section fieldset legend.login-area h3{font-size: 5vw; color: rgb(89,89,89); font-weight: 400; margin-bottom: 30px;}
+  .login-area button{width: 75px; height: 35px; border-radius: 5px; border: 0px; color: #fff; font-size: 14px;}
+  .login-area button.cancel-btn{background:#628FC6;}
+  .login-area button.login-btn{background:#E87C22;}
+  .login-area span{font-size:14px; color:#E87C22; }
+  .login-area .btn-group{width: 100%; position: relative; margin-top: 40px;}
+  .login-area .btn-group .left{position: absolute; top:50%; left: 10px; margin-top: -10px;}
+  .login-area .btn-group .right{position: absolute; top:50%; right: 10px; margin-top: 20px;}
+
+  .or-area{width: 100%; margin: 80px 0 10px 0; position: relative;}
+  .or-area .line:nth-child(2){position: absolute; top: 50%}
+  .or-area .or{display: block; position: absolute; width: 70px; text-align: center; color: rgb(89,89,89); top:50%; left: 50%; margin: -10px 0 0 -35px; background: #fff;}
+
+
+   .sns-login-area{width: 100%;}
+   .sns-login-area span{display: block;width: 100%; height: 50px; text-align: center; margin-top: 10px; margin-bottom: -25px;font-size:14px;}
+   .sns-login-area .btn-group{width: 90%; margin: 0 auto; overflow: hidden;}
+   .sns-login-area button{width: 48%; height: 35px; color: #fff; border-radius: 5px; font-size: 13px; text-align: left; padding-left: 45px;}
+   .sns-login-area button.facebook-login{ background: url(../../img/facebook-mark.png) 3px 2px no-repeat #3b5998; border:1px solid #2f477a; margin-right: 5px;}
+   .sns-login-area button.linkedin-login{border:1px solid #006292;background: url(../../img/linkedin-mark.png) 3px 1px no-repeat #007bb6; }
+
+ .sign-up-area{width: 100%; height: 100px;position: relative;}
+  .sign-up-area span{display: block;width: 100%; height: 40px;text-align: center; margin-top: 30px; font-size:14px;}
+  .sign-up-area button.sign-up-btn{width: 70%; height: 35px; border: 0px;font-size: 14px; border-radius: 5px; background:#628FC6; color: #fff;position: absolute; left: 15%;}
+
 }
