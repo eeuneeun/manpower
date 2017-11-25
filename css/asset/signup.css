@@ -1,0 +1,48 @@
+/*PC 버전*/
+@media only screen and (min-width: 600px) {
+   .container{width: 100%; height: 770px;}
+   .right-section{width:50%; height: 770px;float:right; background: url(../../img/signup-bg.png) 30px 90px no-repeat;}
+
+
+   .left-section{float: left;width:50%; height: 770px;}
+
+   .left-section fieldset{width: 70%;margin: 0 auto; margin-top: 190px; }
+    .left-section fieldset legend{font-size: 28px; color: rgb(89,89,89);}
+    input{width: 420px; height: 30px; border-radius: 5px; border: 1px solid #e1e1e1; margin: 2px 0 3px 0;}
+    .left-section fieldset div.line{width: 100%; height: 1px; border-top: 1px solid #e1e1e1;margin-bottom: 10px;}
+    .sign-up-area input::-webkit-input-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+    .sign-up-area input:-moz-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+    .sign-up-area input::-moz-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+    .sign-up-area input:-ms-input-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
+
+    .sign-up-area h3{font-size: 28px; color: rgb(89,89,89); font-weight: bold; margin-bottom: 30px;}
+    .left-section span.password-label{font-size: 13px; color: #757575; margin:5px 0 0 10px; text-align: left; font-style: italic;}
+    input#new-Password{margin-top: -105px;}
+
+    .sign-up-area .policy-area{margin: -45px 0 0 1px;font-size: 14px;}
+      .sign-up-area .policy-area h5{ margin-top:5px; font-weight: normal;}
+      .sign-up-area .policy-area span{width: 45%; float: right; margin-top: 15px;}
+      .sign-up-area .policy-area em{color:#E87C22;}
+      .sign-up-area .policy-area span a.cancel{font-size: 16px; margin-right: 10px;color:#E87C22; font-weight: bold;}
+      .sign-up-area .policy-area span button.register-btn{width: 75px; height: 35px; border-radius: 5px; border: 0px; color: #fff; font-size: 14px; background:#E87C22;}
+
+
+    .or-area{width: 100%; height: 30px;margin: 50px 0 -10px 0; position: relative;}
+    .or-area .line{position: absolute; top: 50%}
+    .or-area span.or{display: block; position: absolute; width: 70px;height: 10px;text-align: center; color: rgb(89,89,89); top:50%; left: 50%; margin: -9px 0 0 -35px; background: #fff;}
+
+
+     .sns-sign-up-area{width: 100%; height: 200px;}
+     .sns-sign-up-area span.sns-login-word{display: block;width: 100%; height: 50px; text-align: center; margin-top: 10px; margin-bottom: -25px;font-size:14px;}
+     .sns-sign-up-area .btn-group{width: 395px; margin: 0 auto;}
+     .sns-sign-up-area button{width: 190px; height: 35px; color: #fff; border-radius: 5px; font-size: 13px; text-align: left; padding-left: 45px;}
+     .sns-sign-up-area button.facebook-login{ background: url(../../img/facebook-mark.png) 3px 2px no-repeat #3b5998; border:1px solid #2f477a; margin-right: 10px;}
+     .sns-sign-up-area button.linkedin-login{border:1px solid #006292;background: url(../../img/linkedin-mark.png) 3px 1px no-repeat #007bb6; }
+
+   .sign-up-area{width: 100%; position: relative;}
+    .sign-up-area span{display: block;width: 100%; height: 40px;text-align: center; margin-top: 30px; font-size:14px;}
+    .sign-up-area button.sign-up-btn{width: 350px; height: 35px; border: 0px;font-size: 14px; border-radius: 5px; background:#628FC6; color: #fff;position: absolute; left: 50%; margin-left: -175px;}
+}
+/*MOBILE 버전*/
+@media only screen and (max-width: 600px) {
+}

@@ -28,9 +28,9 @@
               <!-- login-box start -->
               <ul class="login-box">
                 <li class="triangle"><a href="#">ENGLISH</a></li>
-                <li><a href="/login.html">LOGIN</a></li>
+                <li><a href="./login.html">LOGIN</a></li>
                 <li class="bg-bar"><img src="img/bg-bar.png" alt="중간선"></li>
-                <li><a href="#">SIGNUP</a></li>
+                <li><a href="./signup.html">SIGNUP</a></li>
               </ul>
               <!-- login-box end -->
 
@@ -123,24 +123,28 @@
       <!-- left-section start -->
       <div class="left-section">
           <fieldset>
-            <!-- login-area start -->
+            <!-- sign-up-area start -->
             <legend class="sign-up-area">
               <h3>Sign Up</h3>
               <input type="text" placeholder="Email" id="email" name="email" value=""><br>
               <input type="password" placeholder="Password" id="Password" name="Password" value=""><br>
-              <label for="Password">Must use 9-20 characters with at least one number or symbol</label><br>
-              <input type="password" placeholder="Confirm New Password" id="Password" name="Password" value=""><br>
+              <span class="password-label">Must use 9-20 characters with at least one number or symbol</span><br>
+              <input type="password" placeholder="Confirm New Password" id="new-Password" name="new-Password" value=""><br>
 
-
-              <div class="btn-group">
-                <span class="left">Forgot Password?</span>
-                <span class="right">
-                  <button type="button" name="button" class="cancel-btn">Cancel</button>
-                  <button type="button" name="button" class="login-btn">Log in</button>
+              <div class="policy-area">
+                By signing up, you agree to the <em>Terms of use</em> and <em>Privacy policy</em> of ManpowerGroup Malaysia.<br>
+                  <h5>
+                    Already Registered?  <a href="./login.html">
+                      <em>Log In</em>
+                    </a>
+                  </h5>
+                <span>
+                  <a hred="#" class="cancel">Cancel</a>
+                  <button type="button" name="button" class="register-btn">Register</button>
                 </span>
-              </div>
+              <div>
             </legend>
-            <!-- login-area end -->
+            <!-- sign-up-area end -->
 
 
             <div class="or-area">
@@ -150,22 +154,16 @@
 
 
 
-            <!-- sns-login-area start -->
-            <legend class="sns-login-area">
-              <span>log in using</span>
+            <!-- sns-sign-up-area start -->
+            <legend class="sns-sign-up-area">
+              <span class="sns-login-word">log in using</span>
               <div class="btn-group">
                 <button type="button" name="button" class="facebook-login">Facebook</button>
                 <button type="button" name="button" class="linkedin-login">LinkedIn</button>
               </div>
               </legend>
-            <!-- sns-login-area end -->
+            <!-- sns-sign-up-area end -->
 
-            <!-- sign-up-area start -->
-            <legend class="sign-up-area">
-              <span>Don't have an Account?</span>
-              <button type="button" name="button" class="sign-up-btn">Sign Up</button>
-            </legend>
-            <!-- sign-up-area end -->
         </fieldset>
       </div>
       <!-- left-section end -->
