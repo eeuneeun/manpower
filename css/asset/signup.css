@@ -48,7 +48,7 @@
   .container{width: 100%;}
   .right-section{display: none;}
   .left-section{width: 100%; background: #fff;}
-  .left-section fieldset{width: 100%;margin: 0 auto; margin-top: 50px; }
+  .left-section fieldset{width: 100%;margin: 0 auto; margin-top: 30px; }
 
    .left-section fieldset legend{width: 100%; font-size: 28px; color: rgb(89,89,89); position: relative;}
    input{width: 95%; height: 30px; border-radius: 5px; border: 1px solid #e1e1e1; margin-left: 2.5%;}
