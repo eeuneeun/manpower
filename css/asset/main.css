@@ -41,11 +41,3 @@
     .container .sub-contents .btn-box .btn{display: block;width: 58%;  margin: 0 auto; height:0;padding-bottom: 10%;background: #fff; border:#fff 1px solid; border-radius:10px; font-size: 3.2vw; text-align:center;color:rgb(64,64,64);line-height: 2.4em;}
     .container .sub-contents .btn-box .btn:nth-child(2){margin-top:8px;}
  }
-
-
-
-@media only screen and (max-width: 400px) {
-  .header .gnb li.parent-menu a{font-size: 12px;}
-  .header .gnb li.parent-menu .child-menu li{font-size: 11px; height: 23px;}
-
-}
