@@ -5,22 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="아웃소싱 전문업체, 인재파견, 헤드헌팅, 장단기 파견, IT 등 채용정보 제공.">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/common/reset.css">
-  <link rel="stylesheet" href="css/common/header.css">
-  <link rel="stylesheet" href="css/common/footer.css">
-  <link rel="stylesheet" href="css/asset/sevice.css">
+
+  <!-- 부트스트랩 CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/header.css">
+  <link rel="stylesheet" href="../css/common/footer.css">
+  <link rel="stylesheet" href="../css/asset/signup.css">
 
   <!-- 제이쿼리 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- 부트스트랩 -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
 
-  <script src="js/header.js"></script>
-  <title>맨파워 코리아</title>
+  <script src="../js/header.js"></script>
+
+
+<!--
+*기존 참고 사이트
+- https://manpower.co.kr
+- https://manpower.co.kr/head_hunting/
+-->
+  <title>맨파워코리아</title>
+
+  <!-- 반응형 테스트 CSS코드 -->
+  <style media="screen">
+
+  </style>
+
 </head>
 <body>
   <!-- header start -->
   <div class="header">
+
+    <!-- inner start -->
     <div class="inner">
 
           <!-- util-menu start -->
@@ -32,16 +50,16 @@
                   <a href="#" class="kor">한국어</a>
                 </li>
                 <li><a href="./login.html">LOGIN</a></li>
-                <li class="bg-bar"><img src="img/bg-bar.png" alt="중간선"></li>
+                <li class="bg-bar"><img src="../img/bg-bar.png" alt="중간선"></li>
                 <li><a href="./signup.html">SIGNUP</a></li>
               </ul>
               <!-- login-box end -->
 
               <!-- sns-icon start -->
               <ul class="sns-icon clear-fix">
-                  <li><a href="#"><img src="img/facebook-icon.png" alt="페이스북 로그인 아이콘"></a></li>
-                  <li><a href="#"><img src="img/in-icon.png" alt="페이스북 로그인 아이콘"></a></li>
-                  <li><a href="#"><img src="img/insta-icon.png" alt="페이스북 로그인 아이콘"></a></li>
+                  <li><a href="#"><img src="../img/facebook-icon.png" alt="페이스북 로그인 아이콘"></a></li>
+                  <li><a href="#"><img src="../img/in-icon.png" alt="페이스북 로그인 아이콘"></a></li>
+                  <li><a href="#"><img src="../img/insta-icon.png" alt="페이스북 로그인 아이콘"></a></li>
                 </ul>
 
               <!-- sns-icon end -->
@@ -49,9 +67,9 @@
           <!-- util-menu end -->
 
           <!-- main index logo -->
-          <h1 class="logo"><a href="./index.html"><img src="img/logo.png" alt="manpower main logo"></a></h1>
+          <h1 class="logo"><a href="./index.html"><img src="../img/logo.png" alt="manpower main logo"></a></h1>
 
-          <div class="menu-btn-mobile"><img src="img/menu-btn-mobile.png" alt="메뉴 버튼"></div>
+          <div class="menu-btn-mobile"><img src="../img/menu-btn-mobile.png" alt="메뉴 버튼"></div>
 
           <!-- gnb start -->
           <ul class="gnb">
@@ -59,22 +77,22 @@
                 <a href="#">ABOUT</a>
                 <ul class="child-menu">
                   <li class="gnb_pointer"></li>
-                  <li><a href="#">About ManpowerGroup</a></li>
-                  <li><a href="#">About Manpower Korea</a></li>
-                  <li><a href="#">Vision & Value</a></li>
-                  <li><a href="#">Family Brands</a></li>
-                  <li><a href="#">News</a></li>
+                  <li><a href="./about/mg_about.html">About ManpowerGroup</a></li>
+                  <li><a href="./about/mk_about.html">About Manpower Korea</a></li>
+                  <li><a href="./about/vv_about.html">Vision & Value</a></li>
+                  <li><a href="./about/fb_about.html">Family Brands</a></li>
+                  <li><a href="./about/news_about.html">News</a></li>
                 </ul>
             </li>
 
             <li class="parent-menu clear-fix">
-                <a href="./service.html">SERVICE</a>
+                <a href="./service/ex_service.html">SERVICE</a>
                 <ul class="child-menu">
                   <li class="gnb_pointer"></li>
-                  <li><a href="#">Executive Search Services</a></li>
-                  <li><a href="#">RPO</a></li>
-                  <li><a href="#">BTS</a></li>
-                  <li><a href="#">Reference checking services</a></li>
+                  <li><a href="./service/ex_service.html">Executive Search Services</a></li>
+                  <li><a href="./service/pro_service.html">RPO</a></li>
+                  <li><a href="./service/bts_service.html">BTS</a></li>
+                  <li><a href="./service/r_chk_service.html">Reference checking services</a></li>
                 </ul>
             </li>
 
@@ -121,31 +139,59 @@
 
   <!-- container start -->
   <div class="container clear-fix">
-    <!-- m-visual start -->
-    <div class="m-visual">
-        <h2>SERVICE</h2>
-    </div>
-    <!-- m-visual end -->
-
     <!-- inner start -->
     <div class="inner">
-      <!-- container-article start -->
-      <div class="container-article">
-        <h3>Executive Search</h3>
-        <p>
-          Manpower Korea Executive Search Division focuses on the senior executive market and customized solutions for our clients.<br>
-          We have 40 professional consultants & recruiters, understanding the needs of our clients, as they all have hands-on industry expertise and knowledge.<br><br>
-           
-          Executive Search Division conducts over 1000 assignments  and worked in partnership with hundreds of global clients to help for their business success.<br>
-          We have placed numerous positions from mid-level to executive level, covering all segments of industries<br>
-          as Automotive, Equipment & Machinery, Energy, Construction & Engineering, pharmaceutical & Bio, Medical Devices,<br>
-          FMCG, IT, Semiconductor, Tourism & Hospitality, and Fashion & Retail<br><br>
-           
-          Our process includes screening, advertising, assessing, shortlisting, and interviewing on your behalf,<br>
-          so you see only the very best and most suitable candidates at the final interview stage<br>
-        </p>
+      <!-- left-section start -->
+      <div class="left-section">
+          <fieldset>
+            <!-- sign-up-area start -->
+            <legend class="sign-up-area">
+              <h3>Sign Up</h3>
+              <input type="text" placeholder="Email" id="email" name="email" value=""><br>
+              <input type="password" placeholder="Password" id="Password" name="Password" value=""><br>
+              <span class="password-label">Must use 9-20 characters with at least one number or symbol</span><br>
+              <input type="password" placeholder="Confirm New Password" id="new-Password" name="new-Password" value=""><br>
+
+              <div class="policy-area">
+                By signing up, you agree to the <em>Terms of use</em> and <em>Privacy policy</em> of ManpowerGroup Malaysia.<br>
+                  <h5>
+                    Already Registered?  <a href="./login.html">
+                      <em>Log In</em>
+                    </a>
+                  </h5>
+                <span class="reg-btn-group">
+                  <a hred="#" class="cancel">Cancel</a>
+                  <button type="button" name="button" class="register-btn">Register</button>
+                </span>
+              <div>
+            </legend>
+            <!-- sign-up-area end -->
+
+
+            <div class="or-area">
+              <div class="line"></div>
+              <span class="or">Or</span>
+            </div>
+
+
+
+            <!-- sns-sign-up-area start -->
+            <legend class="sns-sign-up-area">
+              <span class="sns-login-word">log in using</span>
+              <div class="btn-group">
+                <button type="button" name="button" class="facebook-login">Facebook</button>
+                <button type="button" name="button" class="linkedin-login">LinkedIn</button>
+              </div>
+              </legend>
+            <!-- sns-sign-up-area end -->
+
+        </fieldset>
       </div>
-      <!-- container-article end -->
+      <!-- left-section end -->
+
+      <!-- right-section start -->
+      <div class="right-section"></div>
+      <!--right-section end-->
     </div>
     <!-- inner end -->
   </div>

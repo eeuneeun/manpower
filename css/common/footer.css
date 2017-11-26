@@ -1,6 +1,6 @@
 /*PC footer CSS코드*/
 @media only screen and (min-width: 600px) {
-  .footer{width: 1200px; height: 125px; color:rgb(64,64,64); margin: 0 auto; margin-top: 10px; margin-bottom: 20px; border: 1px solid #d3d3d3; position: relative; padding: 25px;}
+  .footer{width: 100%; max-width: 1200px; height: 125px; color:rgb(64,64,64); margin: 0 auto; margin-top: 10px; margin-bottom: 20px; border: 1px solid #d3d3d3; position: relative; padding: 25px;}
 
   .footer .copyright{color:#404040; margin-top: 15px;}
 
