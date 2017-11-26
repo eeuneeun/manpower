@@ -33,7 +33,7 @@ $(function(){
       $(gnb).fadeOut(0);
       $(parent_menu).fadeOut(0).off();
       $(child_menu).fadeOut(0);
-      $(".header .menu-btn-mobile img").attr("src","img/menu-btn-mobile.png");
+      $(".header .menu-btn-mobile img").attr("src","../../img/menu-btn-mobile.png");
     }
 
 
@@ -58,7 +58,7 @@ $(function(){
       $(gnb).fadeIn(100);
       $(parent_menu).fadeIn(0);
       $(child_menu).fadeIn(0);
-      $(".header .menu-btn-mobile img").attr("src","img/menu-btn-mobile-close.png");
+      $(".header .menu-btn-mobile img").attr("src","../../img/menu-btn-mobile-close.png");
 
     }
 
@@ -75,7 +75,7 @@ $(function(){
           MobileGnbOpen();
         }else if(gnb.is(":visible") & $(mobile_menu_btn).is(":visible")){
           $(gnb).fadeOut(100);
-          $(".header .menu-btn-mobile img").attr("src","img/menu-btn-mobile.png");
+          $(".header .menu-btn-mobile img").attr("src","../../img/menu-btn-mobile.png");
 
         }
       });
@@ -91,7 +91,7 @@ $(function(){
             MobileGnbOpen();
           }else if(gnb.is(":visible") & $(mobile_menu_btn).is(":visible")){
             $(gnb).fadeOut(100);
-            $(".header .menu-btn-mobile img").attr("src","img/menu-btn-mobile.png");
+            $(".header .menu-btn-mobile img").attr("src","../../img/menu-btn-mobile.png");
 
           }
         });
