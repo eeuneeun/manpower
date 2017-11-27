@@ -1,13 +1,101 @@
-.m-visual{width: 100%; height:0; padding-top: 31.75%; background: url(../../img/about-mvisual.jpg) 50% 0 no-repeat; overflow: hidden; margin: 0 auto;position: relative; background-size: 100% 100%;}
+@media only screen and (min-width: 600px) {
+  .container{width: 100%;}
+  .m-visual-bg{width: 1920px; height:381px; background: url(../../img/about-mvisual.jpg) 0 0 no-repeat; overflow: hidden; margin: 0 auto; position: absolute; top: 160px;}
+  .m-visual{width: 100%; height: 381px;}
+  .m-visual .inner{height: 381px;}
+  .m-visual .title-box{ width: 380px; height: 167px; background:rgba(255,255,255,0.8);  border-radius:10px;position: absolute; top:23%; left: 15%; }
+  .m-visual .title-box h2{width: 100%;font-size:65px; color:rgb(70,110,165); font-weight: bold;text-align: center; padding-top: 43px;}
 
-.m-visual .title-box{ width: 40.8%; height: 0; padding-bottom:13.8%;  background:rgba(255,255,255,0.8);  border-radius:10px;position: absolute; top:30%; left:10%;}
-.m-visual .title-box h2{width: 100%;font-size: 2.8rem; color:rgb(70,110,165); font-weight: bold;text-align: center; line-height: 5.2rem;}
+  .container-article{;}
+  .container-article h3{width: 100%;font-family: "Arial"; color:rgb(70,110,165); font-size: 28px; text-align: center;margin: 55px 0; }
+  .container-article p{width: 85%; margin: 0 auto;font-family: "Arial";color:rgb(38,38,38);text-align: center;}
 
-.container-article{height: 750px;}
-.container-article h3{width: 100%;font-family: "Arial"; color:rgb(70,110,165); font-size: 28px; text-align: center;margin: 55px 0; }
-.container-article p{width: 85%; margin: 0 auto;font-family: "Arial";color:rgb(38,38,38);text-align: center;}
 
-.logo-group{width: 100%;  margin-top: 75px;overflow: hidden;}
-  .logo-group dl{float: left; width: 33.3%;}
-  .logo-group dl dt{width: 100%; height: 135px; text-align: center;}
-  .logo-group dl dd{width: 100%; margin-top: 50px; text-align: center;}
+
+/*manpower group page : mg_about.html*/
+.named-img-area{width: 100%;  margin: 75px 0;overflow: hidden;}
+.named-img-area dl{float: left; width: 33.3%;}
+.named-img-area dl dt{width: 100%; height: 135px; text-align: center;}
+.named-img-area dl:nth-child(1) dt{padding-top: 8px;}
+.named-img-area dl:nth-child(3) dt{padding-top: 35px;}
+.named-img-area dl dd{width: 100%; margin-top: 50px;font-family: "Arial";color:#262626; font-size: 17px; font-weight: bold;text-align: center;}
+
+
+/*manpower korea page : mk_about.html*/
+.prize-img-area{width: 100%;  margin: 75px 0;overflow: hidden;}
+.prize-img-area dl{float: left; width: 33.3%;}
+.prize-img-area dl dt{width: 100%; height: 135px; text-align: center;}
+.prize-img-area dl:nth-child(1) dt{padding-top: 8px;}
+.prize-img-area dl:nth-child(3) dt{padding-top: 35px;}
+.prize-img-area dl dd{width: 100%; margin-top: 50px;font-family: "Arial";color:#262626; font-size: 17px; font-weight: bold;text-align: center;}
+
+/*vision & value page : vv_about.html*/
+.container-article .vv-p{margin-bottom: 50px;}
+
+.container-article .vv-article-group{width: 95%; margin: 0 auto; text-align: left;}
+.container-article .vv-article-group dl.vv-item{width: 30%; float: left; background: #f2f2f2; border-radius: 10px; padding:20px 30px;}
+.container-article .vv-article-group dl.vv-item:nth-child(2){margin: 0 5%;}
+    .container-article .vv-article-group dl.vv-item dt{width: 100%;color: #ab404b; font-size: 20px;}
+    .container-article .vv-article-group dl.vv-item dd{width: 100%; color:rgb(38,38,38); font-size: 17px; margin: 20px 0;}
+
+
+/*family brand page : fb_about.html*/
+.fb_vedio{width: 564px; height: 327; margin: 0 auto;}
+.family-logo-group{width: 650px; height: 105px; margin: 0 auto; margin-top:50px; margin-bottom: 50px; }
+.family-logo-group img, .family-logo-group ul, .family-logo-group ul li{float: left;}
+{float: left;}
+
+/*news page : news_about.html*/
+.news_area{width: 80%; max-width: 1200px; overflow: hidden;}
+  .news_area dl{width: 40%; max-width: 570px; height: 390px; float: left;}
+    .news_area dl dt{}
+    .news_area dl dd{}
+    .news_area dl dd img
+
+}
+
+@media only screen and (max-width: 599px) {
+  /*about menu common*/
+  .m-visual{width: 100%; height:381px; background: url(../../img/about-mvisual.jpg) 50% 0 no-repeat; overflow: hidden; margin: 0 auto;position: relative;}
+
+  .m-visual .title-box{width: 80%; margin: 0 auto; height: 167px; position: absolute; top:50%; left:50%; margin:-83.5px 0 0 -40%; background:rgba(255,255,255,0.8);  border-radius:10px;}
+  .m-visual .title-box h2{width: 100%;font-size:65px; color:rgb(70,110,165); font-weight: bold;text-align: center; padding-top:53px; }
+
+
+  .container-article{;}
+  .container-article h3{width: 100%;font-family: "Arial"; color:rgb(70,110,165); font-size: 28px; text-align: center;margin: 55px 0; }
+  .container-article p{width: 85%; margin: 0 auto;font-family: "Arial";color:rgb(38,38,38);text-align: center;}
+
+
+
+/*manpower group page : mg_about.html*/
+.named-img-area{width: 95%; text-align: center; margin:0 auto;}
+  .named-img-area dl.item{width: 100%;margin: 0 auto;margin: 50px 0; }
+  .named-img-area dl dd{width: 100%; margin-top: 10px;font-family: "Arial";color:#262626; font-size: 17px; font-weight: bold;text-align: center;}
+
+/*manpower korea page : mk_about.html*/
+.prize-img-area{width: 95%; text-align: center; margin:0 auto;}
+  .prize-img-area dl.item{width: 100%;margin: 0 auto;margin: 50px 0;}
+  .prize-img-area dl.item dd{width: 100%; margin-top: 10px;font-family: "Arial";color:#262626; font-size: 17px; font-weight: bold;text-align: center;}
+
+
+
+/*vision & value page : vv_about.html*/
+.container-article .vv-p{margin-bottom: 50px;}
+
+.container-article .vv-article-group{width: 95%; margin: 0 auto; text-align: left;}
+.container-article .vv-article-group dl.vv-item{width:85%; max-width: 365px; background: #f2f2f2; border-radius: 10px; padding:20px 30px; margin: 0 auto; margin-bottom: 20px;}
+    .container-article .vv-article-group dl.vv-item dt{width: 100%;color: #ab404b; font-size: 20px;}
+    .container-article .vv-article-group dl.vv-item dd{width: 100%; color:rgb(38,38,38); font-size: 17px; margin: 20px 0;}
+
+
+
+/*family brand page : fb_about.html*/
+.fb_vedio{width: 95%; height: 0; padding-bottom:57.97%; margin: 0 auto; position: relative;}
+.fb_vedio img{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+.family-logo-group{width:95%;margin: 0 auto; margin-top: 50px; margin-bottom: 50px;}
+.family-logo-group .group-logo{display: block; margin: 0 auto;text-align: center;}
+.family-logo-group .center-line{display: none;}
+.family-logo-group ul.child-logo{width: 95%; margin: 0 auto;}
+.family-logo-group ul.child-logo li{width: 50%; margin: 0 auto; text-align: center;}
