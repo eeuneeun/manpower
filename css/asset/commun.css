@@ -5,11 +5,12 @@
 
 .container-article .qna-area{width: 90%;margin: 0 auto; border: 1px solid #ddd; border-radius: 5px; padding: 0 15px;}
   .container-article .qna-area dl{width:100%;font-family: "Arial";color:#262626; background: #f6f5f5;margin: 15px 0; padding: 10px 10px 10px 40px; position: relative;}
-  .container-article .qna-area dl dt{width:100%;margin-bottom:10px;font-weight: bold;}
-  .container-article .qna-area dl dt span.qna-arrow{display: block; width: 20px; height: 20px; background: url(../../img/faq-arrow.png) 0 0; background-size: 21px 40px; overflow: hidden;float: left;position: absolute;top:10px; left: 10px;}
+  .container-article .qna-area dl dt{width:100%;margin-bottom:10px;font-weight: bold;cursor: pointer;}
+  .container-article .qna-area dl dt span.qna-arrow{display: block; width: 20px; height: 20px; background: url(../../img/faq-arrow.png) no-repeat 0 0px; background-size: 21px 40px; overflow: hidden;float: left;position: absolute;top:10px; left: 10px;}
 
-  .container-article .qna-area dl dd{width:100%;}
+  .container-article .qna-area dl dd{width:100%; display: none;}
   .container-article .qna-area dl em{width:100%;color:#ea7c22;}
+
 
 @media only screen and (min-width: 600px) {
 

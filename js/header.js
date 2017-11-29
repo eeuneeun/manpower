@@ -3,8 +3,8 @@ $(function(){
     var windowWidth = $(window).width();
     var gnb = $('.header .gnb');
     var mobile_menu_btn = $('.menu-btn-mobile');
-    var parent_menu = $('.header .gnb li.parent-menu');
-    var parent_menu_a = $('.header .gnb li.parent-menu a');
+    var parent_menu = $('.header .gnb li.parent-menu').children('a');
+    // var parent_menu_a = $('.header .gnb li.parent-menu>a');
     var child_menu = $('ul.child-menu');
     var eng = $('li.triangle a.eng');
     var kor = $('li.triangle a.kor');
@@ -41,7 +41,8 @@ $(function(){
     function PcGnbOpen(){
       $(parent_menu).hover(function(){
         console.log("pc drop");
-        $(this).find("ul.child-menu").stop().fadeToggle(400);
+        $(this).nextAll().stop().fadeToggle(100);
+        //$(this).find("ul.child-menu").stop().fadeToggle(400);
       });
     }
     // 모바일 메뉴 버튼에 리스너 등록
