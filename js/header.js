@@ -3,8 +3,8 @@ $(function(){
     var windowWidth = $(window).width();
     var gnb = $('.header .gnb');
     var mobile_menu_btn = $('.menu-btn-mobile');
-    var parent_menu = $('.header .gnb li.parent-menu').children('a');
-    // var parent_menu_a = $('.header .gnb li.parent-menu>a');
+    var parent_menu = $('.header .gnb li.parent-menu');
+    var parent_menu_a = $('.header .gnb li.parent-menu').children('a');
     var child_menu = $('ul.child-menu');
     var eng = $('li.triangle a.eng');
     var kor = $('li.triangle a.kor');
@@ -39,10 +39,13 @@ $(function(){
 
     // PC 메뉴 오픈 모션
     function PcGnbOpen(){
-      $(parent_menu).hover(function(){
-        console.log("pc drop");
-        $(this).nextAll().stop().fadeToggle(100);
-        //$(this).find("ul.child-menu").stop().fadeToggle(400);
+      $(parent_menu).hover(
+        function(){
+          console.log("pc drop");
+          // $(this).nextAll().stop().fadeToggle(100);
+          $(this).find("ul.child-menu").stop().fadeIn(100);
+        },function(){
+          $(this).find("ul.child-menu").stop().fadeOut(0);
       });
     }
     // 모바일 메뉴 버튼에 리스너 등록
