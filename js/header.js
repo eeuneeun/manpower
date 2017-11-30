@@ -43,7 +43,7 @@ $(function(){
         function(){
           console.log("pc drop");
           // $(this).nextAll().stop().fadeToggle(100);
-          $(this).find("ul.child-menu").stop().fadeIn(100);
+          $(this).find("ul.child-menu").stop().fadeIn(500);
         },function(){
           $(this).find("ul.child-menu").stop().fadeOut(0);
       });
