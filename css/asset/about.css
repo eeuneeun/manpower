@@ -30,10 +30,11 @@
 .prize-img-area dl dd{width: 100%; margin-top: 50px;font-family: "Arial";color:#262626; font-size: 17px; font-weight: bold;text-align: center;}
 
 /*vision & value page : vv_about.html*/
+.container{height: 100%;margin-bottom: 50px;}
 .container-article .vv-p{margin-bottom: 50px;}
 
-.container-article .vv-article-group{width: 95%; margin: 0 auto; text-align: left;}
-.container-article .vv-article-group dl.vv-item{width: 30%; float: left; background: #f2f2f2; border-radius: 10px; padding:20px 30px;}
+.container-article .vv-article-group{width: 95%;margin: 0 auto; text-align: left;position: relative;}
+.container-article .vv-article-group dl.vv-item{width: 30%; height: 100%; min-height: 550px;float: left; background: #f2f2f2; border-radius: 50px; padding:40px 40px;}
 .container-article .vv-article-group dl.vv-item:nth-child(2){margin: 0 5%;}
     .container-article .vv-article-group dl.vv-item dt{width: 100%;color: #ab404b; font-size: 20px;}
     .container-article .vv-article-group dl.vv-item dd{width: 100%; color:rgb(38,38,38); font-size: 17px; margin: 20px 0;}
@@ -86,8 +87,8 @@
 /*vision & value page : vv_about.html*/
 .container-article .vv-p{margin-bottom: 50px;}
 
-.container-article .vv-article-group{width: 95%; margin: 0 auto; text-align: left;}
-.container-article .vv-article-group dl.vv-item{width:85%; max-width: 365px; background: #f2f2f2; border-radius: 10px; padding:20px 30px; margin: 0 auto; margin-bottom: 20px;}
+.container-article .vv-article-group{width: 95%; height: 100%;margin: 0 auto; text-align: left;}
+.container-article .vv-article-group dl.vv-item{width:85%; height: 100%; max-width: 365px; background: #f2f2f2; border-radius: 50px; padding:40px 40px; margin: 0 auto; margin-bottom: 20px;}
     .container-article .vv-article-group dl.vv-item dt{width: 100%;color: #ab404b; font-size: 20px;}
     .container-article .vv-article-group dl.vv-item dd{width: 100%; color:rgb(38,38,38); font-size: 17px; margin: 20px 0;}
 
