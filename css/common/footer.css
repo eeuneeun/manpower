@@ -9,9 +9,25 @@
   .footer .etc-menu>ul>li{height: 100%; margin:10px; float: left;}
   .footer .etc-menu>ul>li.bg-bar{margin-top: 14px;}
 }
+@media only screen and (max-width: 785px) {
+  .footer{width: 95%;height: 155px;color: rgb(64,64,64); margin: 0 auto; margin-top:10px; margin-bottom: 10px;  border: 1px solid #d3d3d3; position: relative; padding: 15px;}
+
+  .footer .company-info{text-align: left;}
+  .footer .copyright{color:#404040; margin-top: 15px;}
+
+  .footer .etc-menu{width: 90%;max-width: 600px; height: 35px; position:relative; bottom:5px; margin: 0 auto; margin-top: 15px;}
+  .footer .etc-menu>ul{width: 100%; height: 35px; overflow:hidden; position: relative;}
+  .footer .etc-menu>ul>li{width: 30%;height: 100%;font-size: 15px; margin-top: 14px; text-align: center;position: absolute;}
+  .footer .etc-menu>ul>li.bg-bar{width: 3px; height: 12px;top:4px;z-index:1;}
+  .footer .etc-menu>ul>li:nth-child(1){left: 0;}
+  .footer .etc-menu>ul>li:nth-child(2){left: 32%; margin-left: -10px;}
+  .footer .etc-menu>ul>li:nth-child(3){left: 50%;margin-left: -15%;}
+  .footer .etc-menu>ul>li:nth-child(4){right:32%; }
+  .footer .etc-menu>ul>li:nth-child(5){right:0px;}
+}
 
 /*MOBILE footer CSS코드*/
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 600px) {
   .footer{width: 95%;color: rgb(64,64,64); margin: 0 auto; margin-top:10px; margin-bottom: 10px;  border: 1px solid #d3d3d3; position: relative; padding: 15px;}
 
   .footer .company-info{text-align: left;}
