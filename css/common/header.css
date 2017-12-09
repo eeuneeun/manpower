@@ -1,10 +1,10 @@
 /**********HEADER & GNB**********/
 /*pc menu*/
-@media only screen and (min-width: 601px) {
-.header{width: 100%; height: 180px; padding-top: 10px; position: relative;}
+@media (min-width: 750px) {
+  .header{width: 100%; height: 180px; padding-top: 10px; position: relative;}
   .header .menu-btn-mobile{display: none!important;}
 
-  .header h1.logo{width:5%; float: left;}
+  .header h1.logo{width:5%; float: left; margin-left: 2.5%;}
 
   .header .util-menu{width: 100%; height: 50px; overflow: hidden; position: relative;}
   .header .util-menu .login-box{width: 300px; position: absolute; right:120px; top: 10px;}
@@ -19,9 +19,10 @@
   .header .util-menu .sns-icon li{float: left;}
   .header .util-menu .sns-icon li:nth-child(2){margin:0 5px 0 5px;}
 
-  .header .gnb{width:95%; height: 570px; padding-top:30px; float: left; padding-left: 9.2%; position: relative; overflow: hidden;}
+  /*.header .gnb{width:90%; height: 570px; padding-top:30px; float:right; position: relative; overflow: hidden;}*/
+  .header .gnb{height: 570px; padding-top:30px; display: flex; flex-direction: row; justify-content: center; align-items: baseline;}
   .header .gnb li.parent-menu{width: 12.4%; height: 40px; float: left; margin-left: 3.1%; height: 50px;}
-  .header .gnb li.parent-menu > a{display: block; width: 100%; height: 100%;font-family: Calibri;color: rgb(89, 89, 89); display: block;font-size: 16px; text-align: center; margin: 0; padding: 0;overflow: hidden;}
+  .header .gnb li.parent-menu > a{display: block; width: 100%; height: 100%;font-family: Calibri;color: rgb(89, 89, 89); display: block;font-size: 16px; text-align: center; margin: 0; padding: 0;word-wrap: break-word;}
 
   .header .gnb li .child-menu{position: relative;margin-top:0;z-index: 999;margin-top: -10px;}
   .header .gnb li .child-menu li{color: rgb(89, 89, 89); width: 180px; height: 40px; border: 1px solid #e3e3e3; padding:10px 0 0 15px;background: #fff;}
@@ -47,45 +48,81 @@
   .header .gnb>li>.child-menu>li.gnb_pointer{width: 30px; height: 3px; background: #466ea5;z-index: 999; position: absolute; margin:-3px 0 0 0px; padding: 0;border:0px;}
   /*.header .gnb>li>.child-menu>li.service-req{display: none;}*/
 }
+
+@media (min-width: 601px) and (max-width: 750px) {
+  .header{width: 100%; max-width: 750px;height: 110px; padding-top: 10px; position: relative; border-bottom: 1px solid #e1e1e1;}
+    .header .inner{height: 100%;}
+    .header h1.logo{position: absolute; width:5%; float: left; left: 10px; top: 5px;}
+
+    .header .util-menu{position: absolute; width: 70%;  max-width: 408px;right: 10px; top: 20px;}
+    .header .util-menu .login-box{width: 300px; position: absolute; right:120px; top: 10px;}
+    .header .util-menu .login-box li{ float: left; margin:0px 15px;}
+    .header .util-menu .login-box li a{font-family: Calibri;color: rgb(166,166,166);}
+    .header .util-menu .login-box li.triangle {width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
+    .header .util-menu .login-box li.triangle a.eng{;}
+    .header .util-menu .login-box li.triangle a.kor{display: none; font-size: 13px; padding-left: 10px;}
+    .header .util-menu .login-box li.bg-bar{margin-top: 5px;}
+
+    .header .util-menu .sns-icon{width: 120px; height: 50px; position: absolute; right:0px;}
+    .header .util-menu .sns-icon li{float: left;}
+    .header .util-menu .sns-icon li:nth-child(2){margin:0 5px 0 5px;}
+
+
+    .header .menu-btn-mobile{width: 64px; height: 64px; position: fixed; left: 15px; bottom:15px; cursor: pointer; z-index: 10000000; display: block!important;}
+
+    .header .gnb{z-index: 1000; width: 100%; height: 100%; position: fixed; bottom:0; left:0; background: #fff; padding: 0; opacity: 0.9; overflow: hidden; display: none; padding-top: 10%;}
+    .header .gnb li.parent-menu{width: 90%; padding-bottom: 3%;margin: 0 auto;}
+
+    .header .gnb li.parent-menu>a{display: block;font-weight: 400;color: #466ea5; width:40%; height: 30px;text-align: left; float: left; margin: 0; padding: 0; font-size: 20px;}
+    .header .gnb li.parent-menu .child-menu{display: block;width: 53%;margin-left: 7%;float: right;}
+    .header .gnb li.parent-menu .child-menu li{display: inline;}
+    .header .gnb li.parent-menu .child-menu li a{display: block; margin: 0; padding: 0;width: 100%;font-size:18px; font-weight: 400;color: #466ea5;}
+    .header .gnb li.parent-menu .child-menu li.gnb_pointer{display: none;}
+    /*.header .gnb li.parent-menu .child-menu li.service-req{display: block;}*/
+
+}
+
 /*mobile menu*/
-  @media only screen and (max-width: 600px) {
-  body{overflow: hidden; height: 100%;}
-  .header{height: 100px; border-bottom: 1px solid #e1e1e1;}
+@media only screen and (max-width: 600px) {
+    body{overflow: hidden; height: 100%;}
+    .header{width: 100%; max-width: 600px; height: 100px; border-bottom: 1px solid #e1e1e1;}
 
-  .header .menu-btn-mobile{width: 64px; height: 64px; position: fixed; left: 15px; bottom:15px; cursor: pointer; z-index: 10000000;}
+    .header .menu-btn-mobile{width: 64px; height: 64px; position: fixed; left: 15px; bottom:15px; cursor: pointer; z-index: 10000000;}
 
-  .header h1.logo{position: absolute; left: 20px; top: 24px;}
-  .header h1.logo a img{width:60px; height:50px;}
-  .header .util-menu{width: 228px; height: 90px; position: absolute; top: 0; right: 0;}
+    .header h1.logo{position: absolute; left: 20px; top: 24px;}
+    .header h1.logo a img{width:60px; height:50px;}
+    .header .util-menu{width: 228px; height: 90px; position: absolute; top: 0; right: 0;}
 
-  .header .util-menu .login-box{width: 230px; height: 40px;overflow: hidden;float: right;padding-left: 18px;}
-  .header .util-menu .login-box li {display: inline;}
-  .header .util-menu .login-box li a{display: block;float: left;margin: 10px 7px; color: rgb(166,166,166);}
-  .header .util-menu .login-box li.triangle a{width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
-  li.triangle a.eng{;}
-  .header .util-menu .login-box li.triangle a.kor{display: none; font-size: 13.5px; padding-left: 10px;}
-
-
-
-  .header .util-menu .login-box li.bg-bar{position: absolute; top: 13px;}
+    .header .util-menu .login-box{width: 230px; height: 40px;overflow: hidden;float: right;padding-left: 18px;}
+    .header .util-menu .login-box li {display: inline;}
+    .header .util-menu .login-box li a{display: block;float: left;margin: 10px 7px; color: rgb(166,166,166);}
+    .header .util-menu .login-box li.triangle a{width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
+    li.triangle a.eng{;}
+    .header .util-menu .login-box li.triangle a.kor{display: none; font-size: 13.5px; padding-left: 10px;}
 
 
-  .header .util-menu .sns-icon{float: right;padding-right: 10px;}
-    .header .util-menu .sns-icon li{display: inline;}
-    .header .util-menu .sns-icon li a{display: block;float: left;margin: 0px 5px;}
+
+    .header .util-menu .login-box li.bg-bar{position: absolute; top: 13px;}
 
 
-  .header .gnb{z-index: 1000; width: 100%; height: 100%; position: fixed; bottom:0; left:0; background: #fff; padding: 0; opacity: 0.9; overflow: hidden; display: none; padding-top: 10%;}
-  .header .gnb li.parent-menu{width: 90%; padding-bottom: 3%;margin: 0 auto;}
+    .header .util-menu .sns-icon{float: right;padding-right: 10px;}
+      .header .util-menu .sns-icon li{display: inline;}
+      .header .util-menu .sns-icon li a{display: block;float: left;margin: 0px 5px;}
 
-  .header .gnb li.parent-menu>a{display: block;font-weight: 400;color: #466ea5; width:40%; height: 30px;text-align: left; float: left; margin: 0; padding: 0; font-size: 4.2vw;}
-  .header .gnb li.parent-menu .child-menu{display: block;width: 53%;margin-left: 7%;float: right;}
-  .header .gnb li.parent-menu .child-menu li{display: inline;}
-  .header .gnb li.parent-menu .child-menu li a{display: block; margin: 0; padding: 0;width: 100%;font-size: 3.9vw; font-weight: 400;color: #466ea5;}
-  .header .gnb li.parent-menu .child-menu li.gnb_pointer{display: none;}
-  /*.header .gnb li.parent-menu .child-menu li.service-req{display: block;}*/
 
- }
+    .header .gnb{z-index: 1000; width: 100%; height: 100%; position: fixed; bottom:0; left:0; background: #fff; padding: 0; opacity: 0.9; overflow: hidden; display: none; padding-top: 10%;}
+    .header .gnb li.parent-menu{width: 90%; padding-bottom: 3%;margin: 0 auto;}
+
+    .header .gnb li.parent-menu>a{display: block;font-weight: 400;color: #466ea5; width:40%; height: 30px;text-align: left; float: left; margin: 0; padding: 0; font-size: 4.2vw;}
+    .header .gnb li.parent-menu .child-menu{display: block;width: 53%;margin-left: 7%;float: right;}
+    .header .gnb li.parent-menu .child-menu li{display: inline;}
+    .header .gnb li.parent-menu .child-menu li a{display: block; margin: 0; padding: 0;width: 100%;font-size: 3.9vw; font-weight: 400;color: #466ea5;}
+    .header .gnb li.parent-menu .child-menu li.gnb_pointer{display: none;}
+    /*.header .gnb li.parent-menu .child-menu li.service-req{display: block;}*/
+}
+
+
+
 
 
 
