@@ -49,7 +49,10 @@
   /*.header .gnb>li>.child-menu>li.service-req{display: none;}*/
 }
 @media (min-width: 750px) and (max-width: 850px) {
-  .header .gnb li.parent-menu > a{display: block; width: 100%; height: 100%;font-family: Calibri;color: rgb(89, 89, 89); font-size: 14px; text-align: center; margin: 0; padding: 0;word-wrap: break-word;}
+  .header .gnb{width: 85%;float: right; margin-right: 30px;}
+  .header .gnb li.parent-menu > a{display: block; width: 100%; height: 100%;font-family: Calibri;color: rgb(89, 89, 89); font-size: 13.5px; text-align: center; margin: 0; padding: 0;word-wrap: break-word;}
+
+  .header .gnb li.parent-menu:nth-child(1){width: 80px; padding-left: 30px;}
 }
 @media (min-width: 601px) and (max-width: 750px) {
   .header{width: 100%; max-width: 750px;height: 110px; padding-top: 10px; position: relative; border-bottom: 1px solid #e1e1e1;}
@@ -112,7 +115,7 @@
       .header .util-menu .sns-icon li a{display: block;float: left;margin: 0px 5px;}
 
 
-    .header .gnb{z-index: 1000; width: 100%; height: 100%; position: fixed; bottom:0; left:0; background: #fff; padding: 0; opacity: 0.9; overflow: hidden; display: none; padding-top: 10%;}
+    .header .gnb{z-index: 1000; width: 100%; height: 100%; position: fixed; bottom:0; left:0; background: #fff; padding: 0; opacity: 0.9; overflow-y: scroll;display: none; padding-top: 10%;}
     .header .gnb li.parent-menu{width: 90%; padding-bottom: 3%;margin: 0 auto;}
 
     .header .gnb li.parent-menu>a{display: block;font-weight: 400;color: #466ea5; width:40%; height: 30px;text-align: left; float: left; margin: 0; padding: 0; font-size: 4.2vw;}
@@ -139,6 +142,11 @@
 
 }
 
-@media only screen and (max-width : 320px) {
+@media only screen and (orientation: landscape)  and (max-width: 700px){
+    .gnb{ padding: 10px 0 0 80px!important; overflow: scroll;}
+   .header .gnb li.parent-menu>a{display: block; width: 35%; height: 20px;font-size: 18px;  text-align: left; margin: 0; padding: 0;}
 
+   .header .gnb li.parent-menu .child-menu{width:65%; margin-top: -25px;}
+   .header .gnb li.parent-menu .child-menu li{display: inline;}
+   .header .gnb li.parent-menu .child-menu li a{display: block;width: 100%; font-size: 16px; height: 15px; font-weight: 300; margin:3px 0 0 0; padding: 0;}
 }
