@@ -7,7 +7,7 @@
   .header h1.logo{width:5%; float: left; margin-left: 2.5%;}
 
   .header .util-menu{width: 100%; height: 50px; overflow: hidden; position: relative;}
-  .header .util-menu .login-box{width: 300px; position: absolute; right:120px; top: 10px;}
+  .header .util-menu .login-box{width: 400px; position: absolute; right:120px; top: 10px;}
   .header .util-menu .login-box li{ float: left; margin:0px 15px;}
   .header .util-menu .login-box li a{font-family: Calibri;color: rgb(166,166,166);}
   .header .util-menu .login-box li.triangle {width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
@@ -60,8 +60,8 @@
     .header h1.logo{position: absolute; width:5%; float: left; left: 10px; top: 5px;}
 
     .header .util-menu{position: absolute; width: 70%;  max-width: 408px;right: 10px; top: 20px;}
-    .header .util-menu .login-box{width: 300px; position: absolute; right:120px; top: 10px;}
-    .header .util-menu .login-box li{ float: left; margin:0px 15px;}
+    .header .util-menu .login-box{width: 350px; position: absolute; right:120px; top: 10px;}
+    .header .util-menu .login-box li{ float: left; margin:0px 10px;}
     .header .util-menu .login-box li a{font-family: Calibri;color: rgb(166,166,166);}
     .header .util-menu .login-box li.triangle {width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
     .header .util-menu .login-box li.triangle a.eng{;}
@@ -71,7 +71,6 @@
     .header .util-menu .sns-icon{width: 120px; height: 50px; position: absolute; right:0px;}
     .header .util-menu .sns-icon li{float: left;}
     .header .util-menu .sns-icon li:nth-child(2){margin:0 5px 0 5px;}
-
 
     .header .menu-btn-mobile{width: 64px; height: 64px; position: fixed; left: 15px; bottom:15px; cursor: pointer; z-index: 10000000; display: block!important;}
 
@@ -99,12 +98,12 @@
     .header .util-menu{width: 228px; height: 90px; position: absolute; top: 0; right: 0;}
 
     .header .util-menu .login-box{width: 230px; height: 40px;overflow: hidden;float: right;padding-left: 18px;}
+    .header .util-menu .login-box .mymenu{display: none;}
     .header .util-menu .login-box li {display: inline;}
     .header .util-menu .login-box li a{display: block;float: left;margin: 10px 7px; color: rgb(166,166,166);}
     .header .util-menu .login-box li.triangle a{width: 70px; height: 100%; background:url('../../img/triangle.png') no-repeat 60px 8px; }
     li.triangle a.eng{;}
     .header .util-menu .login-box li.triangle a.kor{display: none; font-size: 13.5px; padding-left: 10px;}
-
 
 
     .header .util-menu .login-box li.bg-bar{position: absolute; top: 13px;}
