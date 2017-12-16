@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../css/common/reset.css">
   <link rel="stylesheet" href="../../css/common/header.css">
   <link rel="stylesheet" href="../../css/common/footer.css">
-  <link rel="stylesheet" href="../../css/asset/commun.css">
+  <link rel="stylesheet" href="../../css/asset/mymenu.css">
 
   <!-- 제이쿼리 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -76,17 +76,17 @@
 
           <div class="menu-btn-mobile"><img src="../../img/menu-btn-mobile.png" alt="메뉴 버튼"></div>
 
-          <!-- gnb start -->
+            <!-- gnb start -->
           <ul class="gnb">
             <li class="parent-menu clear-fix">
-                <a href="../mg_about.html">ABOUT</a>
+                <a href="../about/mg_about.html">ABOUT</a>
                 <ul class="child-menu">
                   <li class="gnb_pointer"></li>
-                  <li><a href="../mg_about.html">About ManpowerGroup</a></li>
-                  <li><a href="../mk_about.html">About Manpower Korea</a></li>
-                  <li><a href="../vv_about.html">Vision & Value</a></li>
-                  <li><a href="../fb_about.html">Family Brands</a></li>
-                  <li><a href="../news_about.html">News</a></li>
+                  <li><a href="../about/mg_about.html">About ManpowerGroup</a></li>
+                  <li><a href="../about/mk_about.html">About Manpower Korea</a></li>
+                  <li><a href="../about/vv_about.html">Vision & Value</a></li>
+                  <li><a href="../about/fb_about.html">Family Brands</a></li>
+                  <li><a href="../about/news_about.html">News</a></li>
                 </ul>
             </li>
 
@@ -108,6 +108,7 @@
                 <li><a href="#">Service Request</a></li>
               </ul>
             </li>
+
             <li class="parent-menu clear-fix">
                 <a href="../jobinfo/oppor_jobinfo.html">JOB INFORMATION</a>
                 <ul class="child-menu">
@@ -122,7 +123,7 @@
                 <ul class="child-menu">
                   <li class="gnb_pointer"></li>
                   <li><a href="#">Notice</a></li>
-                  <li><a href="./commun/faq_commun.html">FAQ</a></li>
+                  <li><a href="../commun/faq_commun.html">FAQ</a></li>
                 </ul>
             </li>
 
@@ -153,33 +154,35 @@
     <div class="m-visual">
         <div class="inner">
           <div class="title-box">
-            <h2>COMMUNICATION</h2>
+            <h2>NOTICE</h2>
           </div>
         </div>
         <!-- inner end -->
       </div>
       <!-- m-visual end -->
 
-    <!-- container-article start -->
-    <div class="container-article">
-        <!-- inner start -->
-        <h3>FAQ</h3>
-        <span>Find answers to frequently asked questions from candidates.</span>
+      <!-- container-article start -->
+      <div class="container-article">
+          <h3>NOTICE</h3>
 
-        <div class="qna-area">
-          <dl>
-            <dt> <span class="qna-arrow"></span> Can I search for jobs myself or do I need to contact the local Manpower office?</dt>
-            <dd>You can easily search jobs using the search bar at the top of this page. Indicate the job type, industry or skill you are interested in pursuing and the geographical area where you would like to work. Then click “Find Jobs”. You can also <em>sign up and register</em> with Manpower by creating your profile. For a step-by-step guide on building your profile, please reference the <em>instructions guide.</em> </dd>
-          </dl>
-          <dl>
-            <dt> <span class="qna-arrow"></span>  I’m having some difficulty applying for a job online. Can someone help me?</dt>
-            <dd></dd>
-          </dl>
-
-        </div>
-        <!-- inner end -->
-    </div>
-    <!-- container-article end -->
+          <form class="write-form">
+            <input type="text" name="title" class="title" placeholder="title">
+            <br>
+            <input type="text" name="full-name" class="full-name" placeholder="full name">
+            <br>
+              <div class="file_input_div">
+                <input type="text" id="fileName" class="file_input_textbox" readonly="readonly">    
+                <input type="button" value="Search files" class="file_input_button" />
+                <input type="file" class="file_input_hidden" onchange="javascript: document.getElementById('fileName').value = this.value" />
+              </div>
+            <br>
+            <textarea name="message" class="message" placeholder="message"></textarea>
+            <br>
+            <input type="submit" class="send" value="SEND"  onClick="">
+            </div>
+          </form>
+      <div>
+      <!-- container-article end -->
   </div>
   <!-- container end -->
 
