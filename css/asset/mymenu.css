@@ -12,8 +12,8 @@
     .container-article h3{width: 100%;font-family: "Arial"; color:rgb(70,110,165); font-size: 30px; text-align: center;margin: 50px 0; }
  
     .container-article form.write-form{width:60%; max-width: 650px;margin: 0 auto;}
-    .container-article input[type="text"],.container-article input[type="file"],.container-article textarea{width:100%; height: 39px; border: 1px solid #d1d1d1;border-bottom: 2px solid #436da7; border-radius:6px 6px 0 0; box-sizing: border-box; font:400 13.3333px Arial; margin-bottom: 10px;padding: 10px;}
-    .container-article input[type="text"]:focus,.container-article input[type="file"]:focus,.file_input_div .file_input_button:focus{outline: none;}
+    .container-article input[type="text"],.container-article input[type="file"],.container-article textarea{width:100%; height: 39px; border: 1px solid #d1d1d1;border-bottom: 2px solid #436da7; border-radius:6px 6px 0 0; box-sizing: border-box; font:400 13.3333px Arial; margin-bottom: 10px;padding: 10px;color: #000;}
+  
 
     .file_input_div {width:100%;overflow: hidden;position: relative;}
     .file_input_div input[type="text"].file_input_textbox{width:100%; position: relative;}
@@ -22,7 +22,7 @@
 
 
 
-    .container-article textarea{height: 300px;}
+    .container-article textarea{height: 300px;color: #d1d1d1;}
 
     .container-article input[type="submit"]{display :block;background: #436da7; border-radius: 3px; width:100px; height:40px; border:0px; color: #fff; margin: 0 auto;}
 }

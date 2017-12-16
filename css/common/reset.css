@@ -56,6 +56,18 @@ legend{*width:0}
 table{border-collapse:collapse;border-spacing:0}
 
 input::-ms-clear{display:none}
+input::-ms-input-placeholder { color: #A6A6A6; }
+input::-webkit-input-placeholder { color: #A6A6A6; } 
+input::-moz-placeholder { color: #A6A6A6; }
+input::-moz-placeholder { color: #A6A6A6; }
+textarea::-ms-input-placeholder { color: #A6A6A6; }
+textarea::-webkit-input-placeholder { color: #A6A6A6; } 
+textarea::-moz-placeholder { color: #A6A6A6; }
+textarea::-moz-placeholder { color: #A6A6A6; }
+nput[type="text"]:focus,textarea:focus,input[type="file"]:focus,button:focus,input:focus{outline: none;}
+
+
+
 .clear-fix:after{content: ''; display: block; width: 0; height: 0; visibility: hidden; clear:both;}
 
 .inner{max-width: 1200px; width: 100%; margin:0 auto;overflow: hidden;position: relative;}
