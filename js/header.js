@@ -108,6 +108,7 @@ $(function(){
 
 
 
+
   // //모바일 메뉴 아이템 리셋 모션 -> 사용안함
   // function MenuItemReset(setTime){
   //   console.log("사라져라 메뉴!!!");
