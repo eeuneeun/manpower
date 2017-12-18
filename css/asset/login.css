@@ -41,6 +41,16 @@
     .sign-up-area span{display: block;width: 100%; height: 40px;text-align: center; margin-top: 30px; font-size:14px;}
     .sign-up-area button.sign-up-btn{width: 350px; height: 35px; border: 0px;font-size: 14px; border-radius: 5px; background:#628FC6; color: #fff;position: absolute; left: 50%; margin-left: -175px;}
 }
+
+/*TABLET 버전*/
+@media only screen and (max-width: 750px) {
+  .right-section{width: 100%;}
+  
+   .right-section fieldset legend.login-area{width: 100%; font-size: 28px; color: rgb(89,89,89);}
+    input#id{width: 100%;}
+    input#password{width: 100%;}
+}
+
 /*MOBILE 버전*/
 @media only screen and (max-width: 600px) {
   .container{width: 100%;}

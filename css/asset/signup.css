@@ -17,7 +17,7 @@
 
     .sign-up-area h3{font-size: 28px; color: rgb(89,89,89); font-weight: bold; margin-bottom: 30px;}
     .left-section span.password-label{font-size: 13px; color: #757575; margin:5px 0 0 10px; text-align: left; font-style: italic;}
-    input#new-Password{margin-top: -105px;}
+    input#new_password{margin-top: -105px;}
 
     .sign-up-area .policy-area{margin: -45px 0 0 1px;font-size: 14px;}
       .sign-up-area .policy-area h5{ margin-top:5px; font-weight: normal;}
@@ -43,6 +43,19 @@
     .sign-up-area span{display: block;width: 100%; height: 40px;text-align: center; margin-top: 30px; font-size:14px;}
     .sign-up-area button.sign-up-btn{width: 350px; height: 35px; border: 0px;font-size: 14px; border-radius: 5px; background:#628FC6; color: #fff;position: absolute; left: 50%; margin-left: -175px;}
 }
+
+
+
+/*TABLET 버전*/
+@media only screen and (max-width: 750px) {
+  .left-section{width: 100%;}
+  
+   .left-section fieldset legend.sign-up-area{width: 100%; font-size: 28px; color: rgb(89,89,89);}
+    input#email, input#password, input#new_password{width: 100%;}
+    input#email{margin-bottom: 10px;}
+
+}
+
 /*MOBILE 버전*/
 @media only screen and (max-width: 600px) {
   .container{width: 100%;}
@@ -51,20 +64,22 @@
   .left-section fieldset{width: 100%;margin: 0 auto; margin-top: 30px; }
 
    .left-section fieldset legend{width: 100%; font-size: 28px; color: rgb(89,89,89); position: relative;}
-   input{width: 95%; height: 30px; border-radius: 5px; border: 1px solid #e1e1e1; margin-left: 2.5%;}
+   input{width: 95%; height: 30px; border-radius: 5px; border: 1px solid #e1e1e1; margin-left: 0%;}
+
+   .sign-up-area .info-area{width: 90%; margin: 0 auto;}
    .left-section fieldset div.line{width: 100%; height: 1px; border-top: 1px solid #ddd;margin-bottom: 10px;}
 
-   .sign-up-area h3{font-size: 28px; color: rgb(89,89,89); font-weight: bold; margin:0 0 30px 20px;}
+   .sign-up-area h3{font-size: 28px; color: rgb(89,89,89); font-weight: bold; margin:0 0 30px 0px;}
    .sign-up-area input::-webkit-input-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
    .sign-up-area input:-moz-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
    .sign-up-area input::-moz-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
    .sign-up-area input:-ms-input-placeholder {color: #A6A6A6; font-size: 12px; padding-left: 10px;}
 
    .sign-up-area h3{font-size: 28px; color: rgb(89,89,89); font-weight: bold; margin-bottom: 30px;}
-   .left-section span.password-label{width: 90%;font-size: 13px; color: #757575; margin:5px 0 0 20px; text-align: left; font-style: italic; line-height: 1em;}
-   input#new-Password{margin-top: 10px;}
+   .left-section span.password-label{width: 90%;font-size: 13px; color: #757575; margin:7px 0 0 10px; text-align: left; font-style: italic; line-height: 1em;}
+   input#new_password{margin-top: 10px;}
 
-   .sign-up-area .policy-area{width:90%; margin:20px 0 0 20px;font-size: 14px;}
+   .sign-up-area .policy-area{width:90%; margin:0 auto;font-size: 14px;margin-top: 10px; padding-left: 10px;}
      .sign-up-area .policy-area h5{ margin-top:5px; font-weight: normal;}
      .sign-up-area .policy-area span{width: 30%; float: right; margin-top: 5px; overflow: hidden;}
      .sign-up-area .policy-area em{color:#E87C22;}
@@ -77,7 +92,7 @@
    .or-area span.or{display: block; position: absolute; width: 70px;height: 20px;text-align: center; color: rgb(89,89,89); top:50%; left: 50%; margin: -9px 0 0 -35px; background: #fff;z-index:9999;}
 
 
-    .sns-sign-up-area{width: 100%; height: 200px;}
+    .sns-sign-up-area{width: 100%; height: 200px; margin-left: -10px;}
     .sns-sign-up-area span.sns-login-word{display: block;width: 100%; height: 50px; text-align: center; margin-top: 10px; margin-bottom: -25px;font-size:14px;}
     .sns-sign-up-area .btn-group{100%; margin: 0 auto;}
     .sns-sign-up-area button{width: 90%; height: 35px; color: #fff; border-radius: 5px; font-size: 13px; text-align: left; padding-left: 45px; margin-left: 5%;}
