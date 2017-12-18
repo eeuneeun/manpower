@@ -54,6 +54,7 @@
   .header .gnb li.parent-menu:nth-child(4){width: 80px;}
 
   .header .gnb li.parent-menu:nth-child(1){width: 80px; padding-left: 30px;}
+  .header .gnb li.parent-menu:nth-child(2){width: 80px;}
 }
 @media (min-width: 601px) and (max-width: 751px) {
   .header{width: 100%; max-width: 750px;height: 110px; padding-top: 10px; position: relative; border-bottom: 1px solid #e1e1e1;}

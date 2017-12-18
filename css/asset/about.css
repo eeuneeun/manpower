@@ -45,6 +45,7 @@
 .family-logo-group{width: 650px; height: 105px; margin: 0 auto; margin-top:50px; margin-bottom: 50px; }
 .family-logo-group img, .family-logo-group ul, .family-logo-group ul li{float: left;}
 {float: left;}
+.manpower-logo{margin: 10px 5px 0 10px;}
 
 /*news page : news_about.html*/
 .news_area{width: 80%; max-width: 1200px; overflow: hidden;margin: 0 auto;}
@@ -105,8 +106,11 @@
     .family-logo-group{width:95%;margin: 0 auto; margin-top: 50px; margin-bottom: 50px;}
     .family-logo-group .group-logo{display: block; margin: 0 auto;text-align: center;}
     .family-logo-group .center-line{display: none;}
-    .family-logo-group ul.child-logo{width: 95%; margin: 0 auto;}
+    .family-logo-group ul.child-logo{width: 110%; margin: 0 auto;}
     .family-logo-group ul.child-logo li{width: 50%; margin: 0 auto; text-align: center;}
+    /*.solution-logo{margin-right: 30px;}*/
+    .manpower-logo{margin-right: 0px;}
+    .right-logo{margin: 0 0px 0 30px;}
 
 
     /*news page : news_about.html*/
@@ -116,4 +120,6 @@
         .news_area dl dd{width: 87.7%; max-width: 500px; height: 0; padding-bottom: 56.4%;position: relative; margin: 0 auto;}
         .news_area dl dd img{width: 100%; height: 100%; position: absolute; top:0; left: ;}
 
+}
+@media only screen and (max-width: 600px) {
 }
