@@ -6,7 +6,7 @@
 
    .left-section{float: left;width:600px; height: 770px; background: #fff;}
 
-   .left-section fieldset{width: 70%;margin: 0 auto; margin-top: 190px; }
+   .left-section fieldset{width: 70%;margin: 0 auto; margin-top: 150px; }
     .left-section fieldset legend{font-size: 28px; color: rgb(89,89,89);}
     input{width: 420px; height: 30px; border-radius: 5px; border: 1px solid #e1e1e1; margin: 2px 0 3px 0;}
     .left-section fieldset div.line{width: 100%; height: 1px; border-top: 1px solid #e1e1e1;margin-bottom: 10px;}
@@ -17,9 +17,9 @@
 
     .sign-up-area h3{font-size: 28px; color: rgb(89,89,89); font-weight: bold; margin-bottom: 30px;}
     .left-section span.password-label{font-size: 13px; color: #757575; margin:5px 0 0 10px; text-align: left; font-style: italic;}
-    input#new_password{margin-top: -105px;}
+    input#new_password{margin-top: -55px;}
 
-    .sign-up-area .policy-area{margin: -45px 0 0 1px;font-size: 14px;}
+    .sign-up-area .policy-area{margin: -15px 0 0 1px;font-size: 14px;}
       .sign-up-area .policy-area h5{ margin-top:5px; font-weight: normal;}
       .sign-up-area .policy-area span{width: 45%; float: right; margin-top: 15px;}
       .sign-up-area .policy-area em{color:#E87C22;}
@@ -47,7 +47,7 @@
 
 
 /*TABLET 버전*/
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 770px) {
   .left-section{width: 100%;}
   
    .left-section fieldset legend.sign-up-area{width: 100%; font-size: 28px; color: rgb(89,89,89);}
