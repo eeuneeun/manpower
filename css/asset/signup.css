@@ -81,7 +81,7 @@
 
    .sign-up-area .policy-area{width:90%; margin:0 auto;font-size: 14px;margin-top: 10px; padding-left: 10px;}
      .sign-up-area .policy-area h5{ margin-top:5px; font-weight: normal;}
-     .sign-up-area .policy-area span{width: 30%; float: right; margin-top: 5px; overflow: hidden;}
+     .sign-up-area .policy-area span{width: 50%; float: right; margin-top: 15px; overflow: hidden;}
      .sign-up-area .policy-area em{color:#E87C22;}
      .sign-up-area .policy-area span a.cancel{font-size: 16px;color:#E87C22; font-weight: bold; float: left; line-height: 2em;}
      .sign-up-area .policy-area span button.register-btn{width: 50%; height: 35px; border-radius: 5px; border: 0px; color: #fff; font-size: 14px; background:#E87C22;float: right;}

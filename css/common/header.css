@@ -26,7 +26,7 @@
 
   .header .gnb li .child-menu{position: relative;margin-top:0;z-index: 999;margin-top: -10px;}
   .header .gnb li .child-menu li{color: rgb(89, 89, 89); width: 180px; height: 40px; border: 1px solid #e3e3e3; padding:10px 0 0 15px;background: #fff;}
-  .header .gnb li .child-menu li a{;}
+  .header .gnb li .child-menu li a{color: rgb(89, 89, 89);}
 
 
   .header .gnb li.parent-menu:nth-child(1){width: 100px;}
