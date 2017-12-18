@@ -61,7 +61,7 @@
 
       /*세번째 셀 : .job-desc-col*/
       .container-article .job-table ul.job-table-body li:nth-child(3) ul.job-spec{width: 100%; margin-top: 10px;}
-      .container-article .job-table ul.job-table-body li:nth-child(3) ul.job-spec>li{width: 100%;clear: both; color:#686868; }
+      .container-article .job-table ul.job-table-body li:nth-child(3) ul.job-spec>li{width: 100%;min-width:85px;clear: both; color:#686868; }
 
 
       /*마지막 셀 : .job-action-col*/
@@ -102,25 +102,25 @@
 
     .container-article .job-table ul.job-table-body li:nth-child(1) ul.job-position-col li:nth-child(4){width: 0; display: none;}/*orange-view-btn*/
     .container-article .job-table ul.job-table-body li:nth-child(8) ul.job-action-col li:nth-child(2) a:nth-child(1){margin-top:0px;}
-
 }
 
 @media only screen and (max-width: 750px) {
   .m-visual-bg{width: 100%; height:381px; background: url(../../img/job-mvisual.jpg) 0 0 no-repeat; overflow: hidden; margin: 0 auto; position: absolute; top: 110px;}
   .m-visual .title-box{ width: 480px; height: 167px; background:rgba(255,255,255,0.8);  border-radius:10px;position: absolute; top:23%; left: 50%; margin-left:-240px; }
   .m-visual .title-box h2{font-size: 55px;}
+
+  .container-article .job-table ul.job-table-head li:nth-child(8){width: 11%;}
+  .container-article .job-table ul.job-table-body li:nth-child(8){width: 11%;}
   
 } 
 @media only screen and (max-width: 601px) {
   .container{width: 100%; overflow: hidden;margin-bottom: 100px;}
   .m-visual-bg{width: 100%;max-width: 1920px; height:381px; background: url(../../img/job-mvisual.jpg) 0 0 no-repeat; overflow: hidden; margin: 0 auto; position: absolute; top: 100px;}
   .m-visual{width: 100%; height: 381px;}
-  
-
-  /*.m-visual .inner{width: 100%; height: 381px; display:flex; align-items:center;justify-content: center; }*/
+  .m-visual .inner{;}
 
 
-  .m-visual .title-box{width: 80%; max-width: 480px;height: 167px; position: absolute; top:50%; left:10%; margin:-83.5px 0 0 0; background:rgba(255,255,255,0.8);  border-radius:10px;}
+  .m-visual .title-box{width: 80%; max-width: 480px;height: 167px; position: absolute; top:290px; left:10%; margin:-83.5px 0 0 0; background:rgba(255,255,255,0.8);  border-radius:10px;}
   .m-visual .title-box h2{width: 100%;font-size:3em; color:rgb(70,110,165); font-weight: bold;text-align: center; padding-top:53px; }
 
 
