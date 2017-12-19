@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../css/common/reset.css">
   <link rel="stylesheet" href="../../css/common/header.css">
   <link rel="stylesheet" href="../../css/common/footer.css">
-  <link rel="stylesheet" href="../../css/asset/mymenu.css">
+  <link rel="stylesheet" href="../../css/asset/commun.css">
 
   <!-- 제이쿼리 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,13 +30,11 @@
   <title>맨파워코리아</title>
 
   <!-- 반응형 테스트 CSS코드 -->
-  <style media="screen">
-
-  </style>
+  
 
 </head>
 <body>
-  <!-- header start -->
+   <!-- header start -->
   <div class="header">
 
     <!-- inner start -->
@@ -47,15 +45,15 @@
               <!-- login-box start -->
               <ul class="login-box">
                 <li class="mymenu">
-                  <a href="./mymenu.html">MY MENU</a>
+                  <a href="../main/mymenu.html">MY MENU</a>
                 </li>
                 <li class="triangle">
                   <a href="#" class="eng" >ENGLISH</a>
                   <a href="#" class="kor">한국어</a>
                 </li>
-                <li><a href="./login.html">LOGIN</a></li>
+                <li><a href="../main/login.html">LOGIN</a></li>
                 <li class="bg-bar"><img src="../../img/bg-bar.png" alt="중간선"></li>
-                <li><a href="./signup.html">SIGNUP</a></li>
+                <li><a href="../main/signup.html">SIGNUP</a></li>
               </ul>
               <!-- login-box end -->
 
@@ -76,7 +74,7 @@
 
           <div class="menu-btn-mobile"><img src="../../img/menu-btn-mobile.png" alt="메뉴 버튼"></div>
 
-            <!-- gnb start -->
+          <!-- gnb start -->
           <ul class="gnb">
             <li class="parent-menu clear-fix">
                 <a href="../about/mg_about.html">ABOUT</a>
@@ -84,7 +82,7 @@
                   <li class="gnb_pointer"></li>
                   <li><a href="../about/mg_about.html">About ManpowerGroup</a></li>
                   <li><a href="../about/mk_about.html">About Manpower Korea</a></li>
-                  <li><a href="../about/vv_about.html">Vision & Value</a></li>
+                  <li><a href="../about/vv_about.html">Vision &amp; Value</a></li>
                   <li><a href="../about/fb_about.html">Family Brands</a></li>
                   <li><a href="../about/news_about.html">News</a></li>
                 </ul>
@@ -108,7 +106,6 @@
                 <li><a href="#">Service Request</a></li>
               </ul>
             </li>
-
             <li class="parent-menu clear-fix">
                 <a href="../jobinfo/oppor_jobinfo.html">JOB INFORMATION</a>
                 <ul class="child-menu">
@@ -119,11 +116,11 @@
             </li>
 
             <li class="parent-menu clear-fix">
-                <a href="#">COMMUNICATION</a>
+                <a href="./commun/notice_list.html">COMMUNICATION</a>
                 <ul class="child-menu">
                   <li class="gnb_pointer"></li>
-                  <li><a href="../commun/notice_list.html">Notice</a></li>
-                  <li><a href="../commun/faq_commun.html">FAQ</a></li>
+                  <li><a href="./commun/notice_list.html">Notice</a></li>
+                  <li><a href="./commun/faq_commun.html">FAQ</a></li>
                 </ul>
             </li>
 
@@ -154,35 +151,71 @@
     <div class="m-visual">
         <div class="inner">
           <div class="title-box">
-            <h2>NOTICE</h2>
+            <h2>COMMUNICATION</h2>
           </div>
         </div>
         <!-- inner end -->
       </div>
       <!-- m-visual end -->
 
-      <!-- container-article start -->
-      <div class="container-article">
-          <h3>NOTICE</h3>
-
-          <form class="write-form">
-            <input type="text" name="title" class="title" placeholder="title">
-            <br>
-            <input type="text" name="full-name" class="full-name" placeholder="full name">
-            <br>
-              <div class="file_input_div">
-                <input type="text" id="fileName" class="file_input_textbox" readonly="readonly" placeholder="attachment file">    
-                <input type="button" value="attachment file" class="file_input_button" />
-                <input type="file" class="file_input_hidden" onchange="javascript: document.getElementById('fileName').value = this.value" />
-              </div>
-            <br>
-            <textarea name="message" class="message" placeholder="message"></textarea>
-            <br>
-            <input type="submit" class="send" value="SEND"  onClick="">
+    <!-- container-article start -->
+    <div class="container-article">
+        <!-- inner start -->
+        <div class="inner">
+            <h3>Notice</h3>
+            <div class="board_table_list">
+                <div class="board_thead">
+                    <div class="board_tr">
+                        <div class="board_th">No.</div>
+                        <div class="board_th">Title</div>
+                        <div class="board_th">Views</div>
+                        <div class="board_th">Date</div>
+                    </div>
+                </div>
+                <div class="board_tbody">
+                    <div class="board_tr board_td_num">
+                        <div class="board_td">2</div>
+                        <div class="board_td board_td_title"><a href="notice_view.html">Welcome to Manpower Korea !</a></div>
+                        <div class="board_td board_td_info"><img src="../../img/job-view.png" alt="views" />102</div>
+                        <div class="board_td board_td_info">2018-01-05</div>
+                    </div>
+                    <div class="board_tr board_td_num">
+                        <div class="board_td">2</div>
+                        <div class="board_td board_td_title"><a href="notice_view.html">Welcome to Manpower Korea !</a></div>
+                        <div class="board_td board_td_info"><img src="../../img/job-view.png" alt="views" />102</div>
+                        <div class="board_td board_td_info">2018-01-05</div>
+                    </div>
+                </div>
             </div>
-          </form>
-      <div>
-      <!-- container-article end -->
+            <style type="text/css">
+                .board_table_list {border-top:2px solid #ccc;}
+                .board_table_list .board_thead {display:none;}
+                .board_table_list .board_tbody .board_tr {position:relative; padding:15px 15px 15px 15px; border-bottom:1px solid #ddd;}
+                .board_table_list .board_tbody .board_tr:hover {background:#dfe6f1;}
+                .board_table_list .board_tbody .board_tr.board_td_num {padding:15px 15px 15px 60px;}
+                .board_table_list .board_tbody .board_tr.board_td_num .board_td:first-child {position:absolute; left:0px; top:15px; width:60px; margin-top:0px; text-align:center;}
+                .board_table_list .board_tbody .board_tr .board_td.board_td_title {margin-top:0px; font-size:1.1em; color:#6290c5; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+                .board_table_list .board_tbody .board_tr .board_td.board_td_title a {display:block; width:100%; font-size:1.1em; color:#6290c5; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+                .board_table_list .board_tbody .board_tr .board_td {margin-top:5px; font-size:1em; color:#666;}
+
+                @media only screen and (min-width: 601px) {
+                    .board_table_list {display:table; width:100%; border-collapse:collapse; border-spacing:0; border-top:0px;}
+                    .board_table_list .board_thead {display:table-header-group; vertical-align:middle;}
+                    .board_table_list .board_tbody {display:table-row-group; vertical-align:middle;}
+                    .board_table_list .board_tr {display:table-row; vertical-align:inherit;}
+                    .board_table_list .board_th, .board_table_list .board_td {display:table-cell; vertical-align:inherit;}
+                    .board_table_list .board_th {padding:10px 12px; background:#eee; color:#6290c5;}
+                    .board_table_list .board_td {padding:10px 12px;}
+                    .board_table_list .board_tbody .board_tr {padding:0px;}
+                    .board_table_list .board_tbody .board_tr.board_td_num {padding:0px;}
+                    .board_table_list .board_tbody .board_tr.board_td_num .board_td:first-child {position:static; width:auto; text-align:left;}
+                }
+            </style>
+        </div>
+
+        <!-- inner end -->
+    </div>
+    <!-- container-article end -->
   </div>
   <!-- container end -->
 

@@ -8,7 +8,7 @@
 
   .container-article{;}
   .container-article h3{width: 100%;font-family: "Arial"; color:rgb(70,110,165); font-size: 28px; text-align: center;margin: 55px 0; }
-  .container-article p{width: 85%; margin: 0 auto;font-family: "Arial";color:rgb(38,38,38);text-align: center;}
+  .container-article p{width: 85%; margin: 0 auto;font-family: "Arial";color:rgb(38,38,38);text-align: center;font-size: 14px; line-height: 30px;}
 
 
 
@@ -23,11 +23,12 @@
 
 /*manpower korea page : mk_about.html*/
 .prize-img-area{width: 100%;  margin: 75px 0;overflow: hidden;}
-.prize-img-area dl{float: left; width: 33.3%;}
+/*.prize-img-area dl{float: left; width: 33.3%;}*/
+.prize-img-area dl{width: 33.3%;margin: 0 auto;}
 .prize-img-area dl dt{width: 100%; height: 135px; text-align: center;}
 .prize-img-area dl:nth-child(1) dt{padding-top: 8px;}
 .prize-img-area dl:nth-child(3) dt{padding-top: 35px;}
-.prize-img-area dl dd{width: 100%; margin-top: 50px;font-family: "Arial";color:#262626; font-size: 17px; font-weight: bold;text-align: center;}
+.prize-img-area dl dd{width: 100%; margin-top: 15px;font-family: "Arial";color:#262626; font-size: 17px; font-weight: bold;text-align: center;}
 
 /*vision & value page : vv_about.html*/
 .container{height: 100%;margin-bottom: 50px;}
@@ -44,7 +45,6 @@
 .fb_vedio{width: 564px; height: 327; margin: 0 auto;}
 .family-logo-group{width: 650px; height: 105px; margin: 0 auto; margin-top:50px; margin-bottom: 50px; }
 .family-logo-group img, .family-logo-group ul, .family-logo-group ul li{float: left;}
-{float: left;}
 .manpower-logo{margin: 10px 5px 0 10px;}
 
 /*news page : news_about.html*/
@@ -106,11 +106,12 @@
     .family-logo-group{width:95%;margin: 0 auto; margin-top: 50px; margin-bottom: 50px;}
     .family-logo-group .group-logo{display: block; margin: 0 auto;text-align: center;}
     .family-logo-group .center-line{display: none;}
-    .family-logo-group ul.child-logo{width: 110%; margin: 0 auto;}
+    .family-logo-group ul.child-logo{width: 100%; margin: 0 auto;}
     .family-logo-group ul.child-logo li{width: 50%; margin: 0 auto; text-align: center;}
-    /*.solution-logo{margin-right: 30px;}*/
-    .manpower-logo{margin-right: 0px;}
-    .right-logo{margin: 0 0px 0 30px;}
+    .family-logo-group ul.child-logo li:nth-child(1){margin-left:23%;}
+    /*.family-logo-group ul.child-logo li:nth-child(2){width: 45%;}*/
+    /*.manpower-logo{margin-right: 0px;}*/
+    .right-logo{float: right; margin-right: -10px;}
 
 
     /*news page : news_about.html*/
@@ -121,5 +122,14 @@
         .news_area dl dd img{width: 100%; height: 100%; position: absolute; top:0; left: ;}
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 490px) {
+
+  .family-logo-group{width:95%;margin: 0 auto; height:auto;margin-top: 50px; margin-bottom: 50px;}
+
+  .family-logo-group ul.child-logo li{width: 120px;margin: 0 auto!important; height:208px;}
+
+    .family-logo-group ul.child-logo li img{margin: 0 auto; clear:both;}
+    .family-logo-group ul.child-logo li img.solution-logo{margin-left: -20px;}
+    .family-logo-group ul.child-logo li img.right-logo{margin-left: 50px!important;}
+
 }

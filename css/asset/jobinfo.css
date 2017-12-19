@@ -1,6 +1,6 @@
-
+0
   li.orange-btn {display: inline;}
-  .orange-btn a{display: block; width: 57px; height: 30px; background: #e77c22; border-bottom: 3.5px solid #c56a10;border-radius: 5px; color: #fff; text-align: center; padding-top: 5px;}
+  .orange-btn a{display: block; width: 57px; height: 30px; background: #e77c22; border-bottom: 3.5px solid #c56a10;border-radius: 5px; color: #fff; text-align: center; padding-top: 5px;}3
   .orange-btn a:hover{background: #c56a10;}
 
 .page-nation-wrap{width: 100%;margin-top: 50px;}
@@ -116,7 +116,7 @@
 @media only screen and (max-width: 750px) {
   
   .m-visual-bg{top:100px;}
-  .m-visual .title-box{left: 50%; margin-left: -190px;}
+  .m-visual .title-box{left:7%; }
 }
 
 @media only screen and (max-width: 599px) {

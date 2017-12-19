@@ -68,7 +68,7 @@ $(function(){
 
 
     // 첫 진입시 분기
-    if(windowWidth > 750){
+    if(windowWidth > 900){
       PcMenuMode();
       PcGnbOpen();
 
@@ -88,7 +88,7 @@ $(function(){
     //리사이즈 감지
     $(window).resize(function() {
       var windowWidth = $( window ).width();
-      if(windowWidth < 750) {
+      if(windowWidth < 901) {
         MobileMode();
         $(mobile_menu_btn).click(function(){
           if(gnb.is(":hidden") & $(mobile_menu_btn).is(":visible")){
@@ -99,7 +99,7 @@ $(function(){
 
           }
         });
-      }else if(windowWidth > 750){
+      }else if(windowWidth > 900){
         PcMenuMode();
         PcGnbOpen();
       }

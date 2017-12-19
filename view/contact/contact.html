@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="아웃소싱 전문업체, 인재파견, 헤드헌팅, 장단기 파견, IT 등 채용정보 제공.">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- 부트스트랩 CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="../../css/common/reset.css">
+  <link rel="stylesheet" href="../../css/common/header.css">
+  <link rel="stylesheet" href="../../css/common/footer.css">
+  <link rel="stylesheet" href="../../css/asset/commun.css">
+
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- 부트스트랩 -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
+
+  <script src="../../js/header.js"></script>
+  <script src="../../js/commun.js"></script>
+
+
+<!--
+*기존 참고 사이트
+- https://manpower.co.kr
+- https://manpower.co.kr/head_hunting/
+-->
+  <title>맨파워코리아</title>
+
+  <style type="text/css">
+    .row {margin-left:-10px; margin-right:-10px;}
+    ul.office_list {width:100%;}
+    ul.office_list:after {content:""; display:block; clear:both; height:0; visibility:hidden;}
+    ul.office_list li {float:left; width:33.3333%; padding:10px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+    ul.office_list li .office_list_box {width:100%;}
+    ul.office_list li .office_list_box a {position:relative; display:block; width:100%;}
+    ul.office_list li .office_list_box a img {display:block; width:100%;}
+    ul.office_list li .office_list_box a .area_wrap {position:absolute; display:block; left:50%; top:50%; width:200px; height:100px; margin-left:-100px; margin-top:-50px; padding-top:37px; background:rgba(255,255,255,0.8); border-radius:10px; text-align:center; color:rgb(70,110,165); -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+    ul.office_list li .office_list_box dl {height:140px; padding:15px 15px 5px 15px; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; overflow:hidden;}
+    ul.office_list li .office_list_box dl:after {content:""; display:block; clear:both; height:0px; visibility:hidden;}
+    ul.office_list li .office_list_box dl dt {float:left; width:20%; font-weight:bold;}
+    ul.office_list li .office_list_box dl dd {float:left; width:80%;}
+    ul.office_list li .office_list_box dl dd:after {content:""; display:block; clear:both; height:10px;}
+    .global_network {max-width:550px; margin:0 auto; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+    .global_network h4 {font-weight:bold; color:#333; font-size:18px;}
+    .global_network p {margin-top:5px;color:#666; font-size:16px;}
+    .global_network select {display:block; width:100%; height:40px !important; margin-top:30px; padding:4px 15px; border-bottom:2px solid #436da7; border-radius:6px 6px 0 0; font-size:16px; cursor:pointer;}
+    .global_network .btn_gn {display:block; width:100%; height:60px; margin:10px 0px 0px; padding:10px; background:#436da7; border-radius:5px; border:none; font-weight:bold; text-align:center; font-size:20px; color:#fff; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+    @media only screen and (max-width: 959px) {
+        ul.office_list li {width:50%;}
+    }
+    @media only screen and (max-width: 599px) {
+        ul.office_list li {width:100%;}
+        .global_network {width:100%; padding-left:10px; padding-right:10px;}
+    }
+  </style>
+
+</head>
+<body>
+  <!-- header start -->
+  <div class="header">
+
+    <!-- inner start -->
+    <div class="inner">
+
+            <!-- util-menu start -->
+          <div class="util-menu">
+              <!-- login-box start -->
+              <ul class="login-box">
+                <li class="mymenu">
+                  <a href="../main/mymenu.html">MY MENU</a>
+                </li>
+                <li class="triangle">
+                  <a href="#" class="eng" >ENGLISH</a>
+                  <a href="#" class="kor">한국어</a>
+                </li>
+                <li><a href="../main/login.html">LOGIN</a></li>
+                <li class="bg-bar"><img src="../../img/bg-bar.png" alt="중간선"></li>
+                <li><a href="../main/signup.html">SIGNUP</a></li>
+              </ul>
+              <!-- login-box end -->
+
+              <!-- sns-icon start -->
+              <ul class="sns-icon clear-fix">
+                  <li><a href="#"><img src="../../img/facebook-icon.png" alt="페이스북 로그인 아이콘"></a></li>
+                  <li><a href="#"><img src="../../img/in-icon.png" alt="페이스북 로그인 아이콘"></a></li>
+                  <li><a href="#"><img src="../../img/insta-icon.png" alt="페이스북 로그인 아이콘"></a></li>
+                </ul>
+
+              <!-- sns-icon end -->
+          </div>
+          <!-- util-menu end -->
+
+
+          <!-- main index logo -->
+          <h1 class="logo"><a href="../main/index.html"><img src="../../img/logo.png" alt="manpower main logo"></a></h1>
+
+          <div class="menu-btn-mobile"><img src="../../img/menu-btn-mobile.png" alt="메뉴 버튼"></div>
+
+          <!-- gnb start -->
+          <ul class="gnb">
+            <li class="parent-menu clear-fix">
+                <a href="../about/mg_about.html">ABOUT</a>
+                <ul class="child-menu">
+                  <li class="gnb_pointer"></li>
+                  <li><a href="../about/mg_about.html">About ManpowerGroup</a></li>
+                  <li><a href="../about/mk_about.html">About Manpower Korea</a></li>
+                  <li><a href="../about/vv_about.html">Vision &amp; Value</a></li>
+                  <li><a href="../about/fb_about.html">Family Brands</a></li>
+                  <li><a href="../about/news_about.html">News</a></li>
+                </ul>
+            </li>
+
+            <li class="parent-menu clear-fix">
+                <a href="../service/ex_service.html">SERVICE</a>
+                <ul class="child-menu">
+                  <li class="gnb_pointer"></li>
+                  <li><a href="../service/ex_service.html">Executive Search</a></li>
+                  <li><a href="../service/pro_service.html">RPO</a></li>
+                  <li><a href="../service/bts_service.html">BTS</a></li>
+                  <li><a href="../service/r_chk_service.html">Reference checking services</a></li>
+                </ul>
+            </li>
+
+            <li class="parent-menu clear-fix">
+              <a href="#">SERVICE REQUEST</a>
+              <ul class="child-menu">
+                <li class="gnb_pointer"></li>
+                <li><a href="#">Service Request</a></li>
+              </ul>
+            </li>
+            <li class="parent-menu clear-fix">
+                <a href="../jobinfo/oppor_jobinfo.html">JOB INFORMATION</a>
+                <ul class="child-menu">
+                  <li class="gnb_pointer"></li>
+                  <li><a href="../jobinfo/oppor_jobinfo.html">Job Opportunities</a></li>
+                  <li><a href="#">Post a Resume</a></li>
+                </ul>
+            </li>
+
+            <li class="parent-menu clear-fix">
+                <a href="../commun/notice_list.html">COMMUNICATION</a>
+                <ul class="child-menu">
+                  <li class="gnb_pointer"></li>
+                  <li><a href="../commun/notice_list.html">Notice</a></li>
+                  <li><a href="../commun/faq_commun.html">FAQ</a></li>
+                </ul>
+            </li>
+
+            <li class="parent-menu clear-fix">
+                <a href="./contact/contact.html">CONTACT US</a>
+                <ul class="child-menu">
+                  <li class="gnb_pointer"></li>
+                  <li><a href="#">Office Info&amp;Location Map</a></li>
+                  <li><a href="#">Global Network</a></li>
+                </ul>
+            </li>
+          </ul>
+          <!-- gnb end -->
+    </div>
+    <!-- inner end -->
+  </div>
+  <!-- header end -->
+  <!-- container start -->
+  <div class="container">
+
+    <!-- m-visual-bg start -->
+    <div class="m-visual-bg" style="background:url('../../img/contact_mvisual.jpg') no-repeat 0 0;">
+    </div>
+    <!-- m-visual-bg end -->
+
+    <!-- m-visual start -->
+    <div class="m-visual">
+        <div class="inner">
+          <div class="title-box">
+            <h2>CONTACT US</h2>
+          </div>
+        </div>
+        <!-- inner end -->
+      </div>
+      <!-- m-visual end -->
+
+    <!-- section-contact-ol start -->
+    <div class="container-article" id="section-contact-ol">
+        <!-- inner start -->
+        <div class="inner">
+            <div class="row">
+                <h3>Office Info &amp; Location Map</h3>
+                <span>Offices in Korea</span>
+                <ul class="office_list">
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/Gf6HO1eW" target="_blank">
+                                <img src="../../img/img_map_seoul.png" alt="seoul" />
+                                <span class="area_wrap">SEOUL</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(06162) 11F, 409, Teheran-ro, Gangnam-gu, Seoul, Korea</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-2-6420-0355</dd>
+                                <dt>FAX</dt>
+                                <dd>+82-2-6677-9901</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/GgMrkGoC" target="_blank">
+                                <img src="../../img/img_map_busan.png" alt="busan" />
+                                <span class="area_wrap">BUSAN</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(48314) 6F, 80, Suyeong-ro, Suyeong-gu, Busan, Korea</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-51-624-1354</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/GvviT4Zn" target="_blank">
+                                <img src="../../img/img_map_daejeon.png" alt="daejeon" />
+                                <span class="area_wrap">DAEJEON</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(35235) 7F, 51, Daedeok-ro, Seo-gu, Daejeon, Korea</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-42-471-6634</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/5ZYVxfbG" target="_blank">
+                                <img src="../../img/img_map_daegu.png" alt="daegu" />
+                                <span class="area_wrap">DAEGU</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(41931) 15F, 488, Gukchaebosang-ro, Jung-gu, Daegu, Seoul, Korea</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-53-759-9941</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/FYhjyDe3" target="_blank">
+                                <img src="../../img/img_map_suwon.png" alt="suwon" />
+                                <span class="area_wrap">SUWON</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(16488) 4F 413, 303, Hyowon-ro, Paldal-gu, Suwon-si, Gyeonggi-do, Seoul, Korea</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-31-221-3289</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/5zBn2cmY" target="_blank">
+                                <img src="../../img/img_map_changwon.png" alt="changwon" />
+                                <span class="area_wrap">CHANGWON</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(51515) 1401, 107, Jungang-daero, Seongsan-gu, Changwon-si, Gyeongsangnam-do, Seoul, Korea</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-55-284-9199</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/GegmRmOE" target="_blank">
+                                <img src="../../img/img_map_jeju.png" alt="jeju" />
+                                <span class="area_wrap">JEJU</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(63088) 1F, 7, Nohyeong 7-gil, Jeju-si, Jeju-do</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-64-749-4577</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/xLqgAmKK" target="_blank">
+                                <img src="../../img/img_map_icheon.png" alt="icheon" />
+                                <span class="area_wrap">ICHEON</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(17374) 222, 76, Jungnicheon-ro, Icheon-si, Gyeonggi-do</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-31-239-8896</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office_list_box">
+                            <a href="http://naver.me/FHFL0psG" target="_blank">
+                                <img src="../../img/img_map_gwangju.png" alt="gwangju" />
+                                <span class="area_wrap">GWANGJU</span>
+                            </a>
+                            <dl>
+                                <dt>ADD</dt>
+                                <dd>(61927) 5F 502, 1, Gyeongyeol-ro 14beon-gil, Seo-gu, Gwangju, Seoul, Korea</dd>
+                                <dt>TEL</dt>
+                                <dd>+82-70-8897-9931</dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- inner end -->
+    </div>
+    <!-- section-contact-ol end -->
+    <!-- section-contact-gn start -->
+    <div class="container-article" id="section-contact-gn">
+        <!-- inner start -->
+        <div class="inner">
+            <h3>Global Network</h3>
+            <span>International Offices</span>
+
+            <div class="global_network">
+                <h4>Select a Country Site</h4>
+                <p>Changing your site will take you to the URL for that ManpowerGroup location</p>
+                <select name="sel_country" id="sel_country">
+                    <option value="http://www.manpowergroup.com.ar/">Argentina</option>
+                    <option value="https://www.manpowergroup.com.au/">Australia</option>
+                    <option value="https://www.manpower.at/">Austria</option>
+                    <option value="https://manpowergroup.ru/">Belarus</option>
+                    <option value="http://www.manpowergroup.be/">Belgium</option>
+                    <option value="http://www.manpower.com.bo/">Bolivia</option>
+                    <option value="https://www.manpowergroup.com.br/">Brasil</option>
+                    <option value="https://www.manpower.bg/">Bulgaria</option>
+                    <option value="https://www.manpower.ca">Canada</option>
+                    <option value="http://www.manpower.cl/">Chile</option>
+                    <option value="http://www.manpower.com.cn/">China</option>
+                    <option value="http://www.manpower.com.co/">Colombia</option>
+                    <option value="https://www.manpower.com.mx/wps/portal/empleo/Home/Inicio/">Costa Rica</option>
+                    <option value="http://www.manpowergroup.com/contact-us/www.manpower.hr">Croatia</option>
+                    <option value="https://www.manpowergroup.cz/">Czech Republic</option>
+                    <option value="https://www.manpower.dk/">Denmark</option>
+                    <option value="https://www.manpower.com.mx/wps/portal/empleo/Home/Inicio/">Dominican Republic</option>
+                    <option value="https://manpower.ec/">Ecuador</option>
+                    <option value="https://www.manpower.com.mx/wps/portal/empleo/Home/Inicio/">El Salvador</option>
+                    <option value="http://humanage.manpower.ee/">Estonia</option>
+                    <option value="https://www.manpowergroup.fi/">Finland</option>
+                    <option value="http://www.manpowergroup.fr/">France</option>
+                    <option value="https://www.manpowergroup.de/">Germany</option>
+                    <option value="http://www.manpowergroup.com/contact-us">Global Operations</option>
+                    <option value="https://www.manpowergroup.gr/">Greece</option>
+                    <option value="https://www.manpower.com.mx/wps/portal/empleo/Home/Inicio/">Guatemala</option>
+                    <option value="https://www.manpower.com.mx/wps/portal/empleo/Home/Inicio/">Honduras</option>
+                    <option value="http://www.manpower.hu/index.php/hu/">Hungary</option>
+                    <option value="https://www.manpowergroup.co.in/">India</option>
+                    <option value="https://www.manpower.ie/">Ireland</option>
+                    <option value="http://www.experis.co.il/">Israel</option>
+                    <option value="http://www.manpowergroup.it/">Italy</option>
+                    <option value="https://www.manpowergroup.jp/">Japan</option>
+                    <option value="https://manpower.co.kr/index.asp">Korea</option>
+                    <option value="http://www.manpower.lt/">Lithuania</option>
+                    <option value="http://manpower.lu/">Luxembourg</option>
+                    <option value="http://www.manpowergroup.mx/">Mexico</option>
+                    <option value="http://www.manpower-maroc.com/">Morocco</option>
+                    <option value="http://manpowergroup.nl/">Netherlands</option>
+                    <option value="https://www.manpowergroup.co.nz/">New Zealand</option>
+                    <option value="https://www.manpowergroup.no/">Norway</option>
+                    <option value="https://www.manpower.com.mx/wps/portal/empleo/Home/Inicio/">Panama</option>
+                    <option value="http://www.manpower.com.py/inicio.aspx">Paraguay</option>
+                    <option value="https://www.manpower.com.pe/">Peru</option>
+                    <option value="https://candidate.manpower.com/wps/portal/PHCampus/!ut/p/a1/dY3NDoIwEISfhiu7gjTGG8YomgAmoEIvpBj-ArRNrfb1RePFBOcy2ZlvM0AhA8rZs2uY7gRnw_umpNht0iBMExfj6ETwgLg8-4GDk8MV6C-yJ8kWnUvkLdyYIMbkC-Af-QhHoM0gys9c7vPSXTVAVVVXqlL2Q01xq7VcW2ihMcYeGZfCTNVNjLZsLZx7a8VdQzaDg-z7OtRe_gKTtJYU/dl5/d5/L0lDUmlTUSEhL3dHa0FKRnNBLzRKVXBDQSEhL2Vu">Philippines</option>
+                    <option value="http://www.manpower.pl/">Poland</option>
+                    <option value="http://www.manpowergroup.pt/pt/home/">Portugal</option>
+                    <option value="https://www.manpower.com/wps/portal/ManpowerUSA/Root/CEHome/!ut/p/a1/fY3RCoIwFEC_pR_YHVsNX5cEmxRRL9p9iRlzirrJtPb7GfRa5-3AgQMIFaA3r86ZpQveDB9Hcd-eldAqp8fscGVUCn1hXDGeaw4l4P-EfgP6A0mhAHRDqNdduQfczaJlcj3fpK955gCjbWy0kbRhXqBKKZHR-CkkG10Mz4k8wghT3zenLm3eiazV9g!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/">Puerto Rico</option>
+                    <option value="https://candidate.manpower.com/wps/portal/ROCampus/!ut/p/a1/dY3NCoJAFEafpRfw3rSGWir9WKAWWtpsYqxxEnVmmKyBnj6DNi36NocPDhygUACV7FkL1tdKsvbzKTmvgiyMstTDJN4R3CBODn7o4kDIgf4qa5Iu0D3G07GXEMSEfAX8Mx9hC1S0qhxyeQD0Gs2Xr_1QPvmy9GYCqOEVN9w4N3XvobDWOh2TWlluhFEP7VxUB7ppqqi2ozcGMUDc/dl5/d5/L0lDUmlTUSEhL3dHa0FKRnNBLzRKVXBDQSEhL2Vu">Romania</option>
+                    <option value="https://manpowergroup.ru/">Russia</option>
+                    <option value="http://www.manpower.rs/">Serbia</option>
+                    <option value="http://www.manpower.com.sg/">Singapore</option>
+                    <option value="https://www.manpower.sk/manpower/sk/">Slovakia</option>
+                    <option value="https://candidate.manpower.com/wps/portal/SICampus/Slovenia-Jobs/Search-Jobs/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOLdnEI8fEOCjQ38_QLMDDwNDExCHT2MDIC0frh-FKoSd7NgFwOjMD9TQ2N_MwMDfzOoAgMcwNFAvyA7OxAAT_Xs5Q!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/">Slovenia</option>
+                    <option value="https://www.manpower.co.za/Manpower-South-Africa/Job-Seekers/!ut/p/a1/dY3RCoIwGEafpRfw_5s5ul1IWaAGWtpuYsacom4yrb1-Bt100Xdz-ODAAQ4lcC1erRJza7ToP5_T-36XR3Ge-ZgmZ4pHxM2FRQQXQgH8VznQLERyTYK1n1LElH4F_DOGcAKuelMtuSIEHky0IWwp35iu_K0CbmUtrbReY6YZSuecNwg9GietsuY5eg8zwNh1ddy61RswjRxd/dl5/d5/L2dBISEvZ0FBIS9nQSEh/">South Africa</option>
+                    <option value="http://www.manpowergroup.es/">Spain</option>
+                    <option value="https://www.manpowergroup.se/">Sweden</option>
+                    <option value="https://www.manpower.ch/en/">Switzerland</option>
+                    <option value="https://www.manpower.com.tw/index.php?lang=en">Taiwan</option>
+                    <option value="http://www.manpowerthailand.com/tris/">Thailand</option>
+                    <option value="http://www.manpower-tunisie.com/">Tunisia</option>
+                    <option value="http://www.manpower.com.tr/">Turkey</option>
+                    <option value="https://www.manpowergroup.ae/en/home">United Arab Emirates</option>
+                    <option value="http://www.manpowergroup.co.uk/">United Kingdom</option>
+                    <option value="http://www.manpowergroup.us/">United States</option>
+                    <option value="http://www.manpowergroup.com/contact-us/≫%20Manpower%20Uruguay%20website">Uruguay</option>
+                    <option value="http://www.manpowergroup.vn/">Vietnam</option>
+                </select>
+                <button type="button" class="btn_gn" id="btn_sel">Visit Country Page</button>
+            </div>
+
+            <script type="text/javascript">
+                
+                $(function(){
+                    $("#btn_sel").click(function() {
+                        var url = $("#sel_country option:selected").val();
+                        if(url != ""){
+                            window.open("about:blank").location.href = url;
+                        }
+                    });
+                });
+            </script>
+
+        </div>
+
+        <!-- inner end -->
+    </div>
+    <!-- section-contact-gn end -->
+  </div>
+  <!-- container end -->
+
+  <!-- inner start -->
+  <div class="inner">
+    <!-- footer start -->
+    <div class="footer">
+        <!-- company-info start -->
+        <div class="company-info">
+          <ul>
+          ADDRESS: 8,9,10,11,15F,  409, Teheran-ro, Gangnam-gu, Seoul , Korea, 135-876<br>
+          TEL: 02-6677-9900 FAX: 02-6677-9901
+          </ul>
+        </div>
+        <!-- company-info end -->
+
+
+        <!-- copyright start -->
+        <div class="copyright">
+          Copyright ⓒ 2017 Manpower Korea Inc. All Rights Reserved.
+        </div>
+        <!-- copyright end -->
+
+        <!-- etc-menu start -->
+        <div class="etc-menu">
+          <ul>
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li class="bg-bar"><img src="../../img/bg-bar.png" alt="중간선"></li>
+            <li><a href="#">TERMS OF USE</a></li>
+            <li class="bg-bar"><img src="../../img/bg-bar.png" alt="중간선"></li>
+            <li><a href="#">SITEMAP</a></li>
+          </ul>
+        </div>
+        <!-- etc-menu end -->
+
+    </div>
+    <!-- footer end -->
+  </div>
+  <!-- inner end -->
+
+
+</body>
+</html>
